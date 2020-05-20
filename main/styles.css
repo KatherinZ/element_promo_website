@@ -1,4 +1,4 @@
-@import "..reset.css";
+@import "../reset.css";
 @font-face {
   font-family: "Hagrid Bold";
   font-weight: auto;
@@ -25,36 +25,179 @@
 }
 body{
   background-color: #fff;
+  overflow-x: hidden;
 }
 header{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   color: #000;
-}
-header a{
-  font-family: "Hagrid Bold";
-  font-size: 1.2vw;
-  color: #000;
-  text-decoration: underline;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 header .links{
   display: flex;
   justify-content: space-between;
 }
+header .menu img{
+  width: 2.5vw;
+  height: auto;
+  margin: 3vw;
+}
+.links a{
+  font-family: "Hagrid Medium";
+  font-size: 1.2vw;
+  color: #000;
+  text-decoration: underline;
+  margin-left: 1vw;
+}
+header .burger{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 53vw;
+}
+.burger .rect{
+  background-color: #fff;
+  width: 90vw;
+  height: 0.15vw;
+  margin-top: 0vw;
+  margin-left: 5vw;
+}
+.burger img{
+  width: 3vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+.burger a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Hagrid Medium";
+  font-size: 3.5vw;
+}
+.burger h2{
+  margin-top: -2vw;
+  padding-top: 4.6vw;
+}
+.burger:nth-child(2){
+  padding-left: 5vw;
+}
+.burger h2:
+
+
+
 h1{
-  margin-top: 20vw;
+  margin-top: 16vw;
   text-align: center;
   font-family: "Hagrid bold";
   font-size: 10vw;
 }
+
+.block_1{
+  position: absolute;
+  border: 0.2vw solid #000;
+  background-color: none;
+  width: 9vw;
+  height: 9vw;
+  color: #000;
+  transform: translateX(20vw);
+}
+
+.numbers, .numbers + p{
+  font-family: 'Gilroy-Medium', helvetica, sans-serif;
+  margin-right: 0.8vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.block_1 h2{
+  font-size: 3.2vw;
+  font-weight: 400;
+  margin-left: 1vw;
+  margin-top: 1.5vw;
+}
+.block_1 p{
+  font-size: 0.9vw;
+  font-weight: 400;
+  margin-left: 1vw;
+}
+
+.numbers{
+  margin-top: 0.8vw;
+}
+
+.numbers p:last-child{
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: 'Gilroy-Medium', helvetica, sans-serif;
+  margin-right: 0.2vw;
+}
+.block_1 h2 + p{
+  font-size: 1.2vw;
+  margin-top: auto;
+}
+
+/* ШРИФТЫ */
+.wrapper .block_1:nth-of-type(1) h2{
+  font-family: "ScotchModern-Bold", serif;
+}
+.wrapper .block_1:nth-of-type(2) h2{
+  font-family: times, serif;
+}
+.wrapper .block_1:nth-of-type(3) h2{
+  font-family: "TrajanPro3-Regular", serif;
+}
+.wrapper .block_1:nth-of-type(4) h2{
+  font-family: "Garamond", serif;
+}
+.wrapper .block_1:nth-of-type(5) h2{
+  font-family: "Oldbaskerville", serif;
+}
+.wrapper .block_1:nth-of-type(6) h2{
+  font-family: "Garamond", serif;
+}
+.wrapper .block_1:nth-of-type(7) h2{
+  font-family: "Swift", serif;
+}
+.wrapper .block_1:nth-of-type(8) h2{
+  font-family: "Bodoni", serif;
+}
+.wrapper .block_1:nth-of-type(9) h2{
+  font-family: "Adobe Jenson", serif;
+}
+.wrapper .block_1:nth-of-type(10) h2{
+  font-family: "univers LT CYR", helvetica, sans-serif;
+}
+.wrapper .block_1:nth-of-type(11) h2{
+  font-family: "AkzidenzGroteskPro-Regular", helvetica, sans-serif;
+}
+.wrapper .block_1:nth-of-type(12) h2{
+  font-family: arial, sans-serif;
+}
+.wrapper .block_1:nth-of-type(13) h2{
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.wrapper .block_1:nth-of-type(14) h2{
+  font-family: "Gotham", sans-serif;
+}
+
 footer{
   position: relative;
-  top: 12vw;
+  top: 16vw;
   display: flex;
   justify-content: space-between;
   color: #000;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 footer p{
-  font-family: "Proxima Regular";
-  font-size: 2vw;
+  font-family: "Proxima Bold";
+  font-size: 1.2vw;
 }
