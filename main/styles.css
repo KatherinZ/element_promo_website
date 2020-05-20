@@ -1,0 +1,60 @@
+@import "..reset.css";
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../fonts/hagrid-bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../fonts/hagrid-medium.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Proxima Regular";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Proxima Bold";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Bold.ttf)
+  format('truetype');
+}
+body{
+  background-color: #fff;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  color: #000;
+}
+header a{
+  font-family: "Hagrid Bold";
+  font-size: 1.2vw;
+  color: #000;
+  text-decoration: underline;
+}
+header .links{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  margin-top: 20vw;
+  text-align: center;
+  font-family: "Hagrid bold";
+  font-size: 10vw;
+}
+footer{
+  position: relative;
+  top: 12vw;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+footer p{
+  font-family: "Proxima Regular";
+  font-size: 2vw;
+}
