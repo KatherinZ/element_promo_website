@@ -23,6 +23,75 @@
   src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
 }
+
+
+/* additional fonts */
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-weight: auto;
+  src: url(../fonts/Gilroy-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "AkzidenzGrotesk";
+  font-weight: auto;
+  src: url(../fonts/AkzidenzGroteskPro-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: auto;
+  src: url(../fonts/GothaProReg.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Oldbaskerville";
+  font-weight: auto;
+  src: url(../fonts/7092.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "ScotchModern-Bold";
+  font-weight: auto;
+  src: url(../fonts/ScotchModern-Bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Caslon";
+  font-weight: auto;
+  src: url(../fonts/7092.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Swift";
+  font-weight: auto;
+  src: url(../fonts/Swift-Bold.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "TrajanPro3-Regular";
+  font-weight: auto;
+  src: url(../fonts/TrajanPro3-Regular.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Caslon";
+  font-weight: auto;
+  src: url(../fonts/7129.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Garamond";
+  font-weight: auto;
+  src: url(../fonts/GARA.TTF)
+  format('truetype');
+}
+@font-face{
+  font-family: "Adobe Jenson";
+  font-weight: auto;
+  src: url(../fonts/Adobe-Jenson.ttf)
+  format('truetype');
+}
 body{
   background-color: #fff;
   overflow-x: hidden;
@@ -31,19 +100,21 @@ header{
   display: flex;
   justify-content: space-between;
   color: #000;
-  margin-top: 1vw;
+  margin-top: 2vw;
   margin-left: 3vw;
   margin-right: 3vw;
 }
 header .links{
   display: flex;
   justify-content: space-between;
+  margin-right: 2vw;
 }
 header .menu img{
   width: 2.5vw;
   height: auto;
-  margin: 3vw;
+  margin: 0vw;
 }
+
 .links a{
   font-family: "Hagrid Medium";
   font-size: 1.2vw;
@@ -51,7 +122,15 @@ header .menu img{
   text-decoration: underline;
   margin-left: 1vw;
 }
-header .burger{
+.links a:hover{
+  text-decoration: none;
+}
+.links a img{
+  position: absolute;
+  top: 1.3vw;
+  right: 2vw;
+}
+.burger{
   display: none;
   position: absolute;
   z-index: 10;
@@ -88,7 +167,6 @@ header .burger{
 .burger:nth-child(2){
   padding-left: 5vw;
 }
-.burger h2:
 
 
 
@@ -136,10 +214,11 @@ h1{
 .numbers p:last-child{
   font-size: 1.2vw;
   font-weight: bold;
-  font-family: 'Gilroy-Medium', helvetica, sans-serif;
+  font-family: 'Gilroy-Regular', helvetica, sans-serif;
   margin-right: 0.2vw;
 }
 .block_1 h2 + p{
+  font-family: 'Gilroy-Regular', helvetica, sans-serif;
   font-size: 1.2vw;
   margin-top: auto;
 }
@@ -176,7 +255,7 @@ h1{
   font-family: "univers LT CYR", helvetica, sans-serif;
 }
 .wrapper .block_1:nth-of-type(11) h2{
-  font-family: "AkzidenzGroteskPro-Regular", helvetica, sans-serif;
+  font-family: "AkzidenzGrotesk", helvetica, sans-serif;
 }
 .wrapper .block_1:nth-of-type(12) h2{
   font-family: arial, sans-serif;
