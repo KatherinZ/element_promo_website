@@ -1,0 +1,151 @@
+@import "../reset.css";
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../fonts/hagrid-bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../fonts/hagrid-medium.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Proxima Regular";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Proxima Bold";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Bold.ttf)
+  format('truetype');
+}
+
+body{
+  background-color: #000;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+header .links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2vw;
+}
+header .links:first-child{
+  text-decoration: none;
+}
+header .menu img{
+  width: 2.5vw;
+  height: auto;
+  margin: 0vw;
+}
+
+.links a{
+  font-family: "Hagrid Medium";
+  font-size: 1.2vw;
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 1vw;
+}
+.links a:hover{
+  text-decoration: none;
+}
+.links a img{
+  position: absolute;
+  top: 1.3vw;
+  right: 2vw;
+}
+header .burger{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 53vw;
+}
+.burger .rect{
+  background-color: #fff;
+  width: 90vw;
+  height: 0.15vw;
+  margin-top: 0vw;
+  margin-left: 5vw;
+}
+.burger img{
+  width: 3vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+.burger a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Hagrid Medium";
+  font-size: 3.5vw;
+}
+.burger h2{
+  margin-top: -2vw;
+  padding-top: 4.6vw;
+}
+.burger:nth-child(2){
+  padding-left: 5vw;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 15vw 15vw 15vw;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+.wrapper .in_grid{
+  border: 0.01vw solid #c5c5c5;
+}
+.wrapper p{
+  color: #fff;
+  font-family: "Proxima Regular", helvetica, sans-serif;
+}
+.wrapper h2{
+  color: #fff;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-size: 2vw;
+}
+.wrapper h3{
+  color: #fff;
+  font-family: "Proxima Bold", helvetica, sans-serif
+}
+.wrapper .in_grid:nth-of-type(1){
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.wrapper .in_grid:nth-of-type(1) h2{
+margin-top: 10vw;
+}
+.wrapper .in_grid:nth-of-type(3) img{
+width: 25vw;
+}
+
+footer{
+  position: relative;
+  top: 5vw;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+footer p{
+  font-family: "Proxima Bold";
+  font-size: 1.2vw;
+}
