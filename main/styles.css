@@ -107,7 +107,14 @@ header{
 header .links{
   display: flex;
   justify-content: space-between;
-  margin-right: 2vw;
+  margin-right: 5vw;
+}
+header .links a:nth-of-type(2){
+  text-decoration: none;
+  margin-left: 4vw;
+}
+header .links:last-child{
+  text-decoration: none;
 }
 header .menu img{
   width: 2.5vw;
@@ -117,7 +124,7 @@ header .menu img{
 
 .links a{
   font-family: "Hagrid Medium";
-  font-size: 1.2vw;
+  font-size: 1vw;
   color: #000;
   text-decoration: underline;
   margin-left: 1vw;
