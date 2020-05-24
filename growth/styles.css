@@ -25,13 +25,13 @@
 }
 
 body{
-  background-color: #fff;
+  background-color: #000;
   overflow-x: hidden;
 }
 header{
   display: flex;
   justify-content: space-between;
-  color: #000;
+  color: #fff;
   margin-top: 2vw;
   margin-left: 3vw;
   margin-right: 3vw;
@@ -41,14 +41,20 @@ header .links{
   justify-content: space-between;
   margin-right: 5vw;
 }
+header .menu h2{
+  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-size: 2.5vw;
+  margin-left: 3vw;
+}
 header .links a:nth-of-type(2){
   margin-left: 4vw;
 }
 header .links:last-child{
   text-decoration: none;
 }
-header .links a:first-child{
-  text-decoration: none;
+header .menu{
+  display: flex;
+
 }
 header .menu img{
   width: 2.5vw;
@@ -57,9 +63,9 @@ header .menu img{
 }
 
 .links a{
-  font-family: "Hagrid Medium";
+  font-family: "Hagrid Medium",helvetica, sans-serif;
   font-size: 1vw;
-  color: #000;
+  color: #fff;
   text-decoration: underline;
   margin-left: 1vw;
 }
@@ -83,6 +89,9 @@ header .burger{
   width: 100vw;
   height: 53vw;
 }
+header .menu img:hover{
+  cursor: pointer;
+}
 .burger .rect{
   background-color: #fff;
   width: 90vw;
@@ -99,7 +108,7 @@ header .burger{
 .burger a{
   color: #fff;
   text-decoration: none;
-  font-family: "Hagrid Medium";
+  font-family: "Hagrid Medium", helvetica, sans-serif;
   font-size: 3.5vw;
 }
 .burger h2{
@@ -109,18 +118,44 @@ header .burger{
 .burger:nth-child(2){
   padding-left: 5vw;
 }
+
 .wrapper{
-  margin-left: 13vw;
-  margin-top: 1vw;
-  width: 80vw;
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 4vw;
 }
-.wrapper img{
-  max-height: 10vw;
-  margin-right: 3vw;
+.wrapper .ground{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+.wrapper .ground h2 span{
+  color: #fff;
+  font-size: 10vw;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
+}
+.wrapper .ground h2 span:first-child{
+  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-size: 12vw;
+}
+.wrapper .ground p{
+  color: #fff;
+  width: 25vw;
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.4vw;
+}
+.wrapper .ground h2 + p{
+  position: absolute;
+  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-size: 2vw;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  margin-left: 60vw;
   margin-top: 2vw;
 }
-.wrapper:nth-of-type(11){
-  max-height: 5vw;
+.wrapper .ground p:last-child{
+  margin-top: 1vw;
+  margin-left: 10vw;
 }
 
 
@@ -132,8 +167,10 @@ footer{
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
+  margin-top: 105vw;
 }
 footer p{
-  font-family: "Proxima Bold";
+  font-family: "Proxima Bold",helvetica, sans-serif;
   font-size: 1.2vw;
+  color: #fff;
 }

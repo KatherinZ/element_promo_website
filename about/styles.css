@@ -87,10 +87,10 @@ header .burger{
   margin-left: 5vw;
 }
 .burger img{
-  width: 3vw;
+  width: 2.5vw;
   height: auto;
-  margin-left: 3vw;
-  margin-top: 3vw;
+  margin-left: -2vw;
+  margin-top: 1.7vw;
 }
 .burger a{
   color: #fff;
@@ -208,7 +208,7 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(17) p{
   width: 30vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
 }
 .wrapper .in_grid:nth-of-type(18){
   grid-column-start: 3;
@@ -237,7 +237,7 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(23) p{
   width: 30vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 5vw;
 }
 .wrapper .in_grid:nth-of-type(25){
@@ -265,13 +265,13 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(31) p{
   width: 30vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: -10vw;
 }
 .wrapper .in_grid:nth-of-type(33) p{
   width: 15vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
 }
 .wrapper .in_grid:nth-of-type(36){
   grid-column-start: 4;
@@ -280,7 +280,7 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(36) p{
   width: 30vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 2.5vw;
 }
 .wrapper .in_grid:nth-of-type(39){
@@ -301,7 +301,7 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(46) p{
   width: 30vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 6.5vw;
 }
 
@@ -320,7 +320,7 @@ grid-column-end: 3;
 .wrapper .in_grid:nth-of-type(54) p{
   font-size: 1.1vw;
   margin-left: 2vw;
-  margin-top: 3vw;
+  margin-top: 2vw;
   margin-bottom: 11vw;
 }
 .wrapper .in_grid:nth-of-type(54) p a{

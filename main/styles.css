@@ -110,7 +110,6 @@ header .links{
   margin-right: 5vw;
 }
 header .links a:nth-of-type(2){
-  text-decoration: none;
   margin-left: 4vw;
 }
 header .links:last-child{
@@ -120,6 +119,12 @@ header .menu img{
   width: 2.5vw;
   height: auto;
   margin: 0vw;
+}
+header .menu img:hover{
+    cursor: pointer;
+}
+header .links a img{
+  width: 2.5vw;
 }
 
 .links a{
@@ -147,6 +152,7 @@ header .menu img{
   left: 0;
   width: 100vw;
   height: 53vw;
+  padding-left: 5vw;
 }
 .burger .rect{
   background-color: #fff;
@@ -156,10 +162,13 @@ header .menu img{
   margin-left: 5vw;
 }
 .burger img{
-  width: 3vw;
+  width: 2.5vw;
   height: auto;
-  margin-left: 3vw;
-  margin-top: 3vw;
+  margin-left: -2vw;
+  margin-top: 1.7vw;
+}
+.burger img:hover{
+  cursor: pointer;
 }
 .burger a{
   color: #fff;
@@ -167,12 +176,12 @@ header .menu img{
   font-family: "Hagrid Medium";
   font-size: 3.5vw;
 }
-.burger h2{
+.burger a h2{
   margin-top: -2vw;
   padding-top: 4.6vw;
 }
-.burger:nth-child(2){
-  padding-left: 5vw;
+.burger a:nth-child(3){
+  margin-left: 10vw;
 }
 
 
@@ -185,6 +194,7 @@ h1{
 }
 
 .block_1{
+  display: none;
   position: absolute;
   border: 0.2vw solid #000;
   background-color: none;
@@ -287,3 +297,5 @@ footer p{
   font-family: "Proxima Bold";
   font-size: 1.2vw;
 }
+footer .social a{
+  margin-left: 0.3vw;
