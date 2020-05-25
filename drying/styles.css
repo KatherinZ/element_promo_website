@@ -1,0 +1,229 @@
+@import "../reset.css";
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../fonts/hagrid-bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../fonts/hagrid-medium.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Proxima Regular";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Proxima Bold";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Bold.ttf)
+  format('truetype');
+}
+
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+header .links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5vw;
+}
+header .menu h2{
+  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-size: 2.5vw;
+  margin-left: 3vw;
+  color: #000;
+}
+header .links a:nth-of-type(2){
+  margin-left: 4vw;
+}
+header .links:last-child{
+  text-decoration: none;
+}
+header .menu{
+  display: flex;
+
+}
+header .menu img{
+  width: 2.5vw;
+  height: auto;
+  margin: 0vw;
+}
+
+.links a{
+  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-size: 1vw;
+  color: #000;
+  text-decoration: underline;
+  margin-left: 1vw;
+}
+.links a:hover{
+  text-decoration: none;
+}
+.links a img{
+  position: absolute;
+  top: 1.3vw;
+  right: 2vw;
+  width: 2.5vw;
+}
+header .burger{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 53vw;
+}
+header .menu img:hover{
+  cursor: pointer;
+}
+.burger .rect{
+  background-color: #fff;
+  width: 90vw;
+  height: 0.15vw;
+  margin-top: 0vw;
+  margin-left: 5vw;
+}
+.burger img{
+  width: 2.5vw;
+  height: auto;
+  margin-left: -2vw;
+  margin-top: 1.7vw;
+}
+.burger a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-size: 3.5vw;
+}
+.burger h2{
+  margin-top: -2vw;
+  padding-top: 4.6vw;
+}
+.burger:nth-child(2){
+  padding-left: 5vw;
+}
+
+.wrapper{
+  position: absolute;
+margin-top: 3vw;
+margin-bottom: -40vw;;
+}
+.wrapper .line{
+  display: flex;
+  border: solid 0.1vw #000;
+  height: 17.5vw;
+  width: auto;
+}
+.wrapper .line p{
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.4vw;
+  min-width: 40vw;
+  padding: 2vw;
+}
+.wrapper .line .rect{
+  background-color: #000;
+  min-width: 0.15vw;
+  height: 17.7vw;
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+}
+.wrapper .line:nth-of-type(1) .rect{
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+.wrapper .line:first-child p{
+max-width: 20vw;
+}
+.wrapper .line:nth-of-type(2) p{
+max-width: 15vw;
+}
+.wrapper .line:nth-of-type(1){
+  animation: 6s linear infinite both move-right;
+}
+.wrapper .line:nth-of-type(1):hover{
+  animation: 6s linear infinite both paused move-right;
+}
+.wrapper .line:nth-of-type(2){
+
+  animation: 6s linear infinite both move-left;
+}
+.wrapper .line:nth-of-type(2):hover{
+  animation: 6s linear infinite both paused move-left;
+}
+.wrapper .line:nth-of-type(3){
+  animation: 6s linear infinite both move-right;
+}
+.wrapper .line:nth-of-type(3):hover{
+  animation: 6s linear infinite both paused move-right;
+}
+.wrapper .line:nth-of-type(4){
+
+  animation: 6s linear infinite both move-left;
+}
+.wrapper .line:nth-of-type(4):hover{
+  animation: 6s linear infinite both paused move-left;
+}
+.wrapper .line:nth-of-type(5){
+
+  animation: 6s linear infinite both move-right;
+}
+.wrapper .line:nth-of-type(5):hover{
+  animation: 6s linear infinite both paused move-right;
+}
+
+
+
+@keyframes move-left {
+  0%{
+    margin-left: -80vw;
+  }
+  50%{
+    margin-left: 0vw;
+  }
+  100%{
+    margin-left: -80vw;
+  }
+}
+@keyframes move-right {
+  0%{
+    margin-left: 0vw;
+  }
+  50%{
+    margin-left: -60vw;
+  }
+  100%{
+    margin-left: 0vw;
+  }
+}
+footer{
+  position: relative;
+  top: 5vw;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 105vw;
+}
+footer p{
+  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-size: 1.2vw;
+  color: #000;
+}
