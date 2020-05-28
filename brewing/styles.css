@@ -120,6 +120,7 @@
 body{
   background-color: #000;
   overflow-x: hidden;
+  height:
 }
 header{
   display: flex;
@@ -316,7 +317,7 @@ header .menu img:hover{
   font-family: "Gotham", sans-serif;
 }
 .square_2{
-  width: 17.5vw;
+  width: auto;
   height: 17.5vw;
   color: #fff;
   background-color: #000;
@@ -330,6 +331,10 @@ header .menu img:hover{
 .square_2{
   display: none;
 }
+.square_2 .inner{
+  display: flex;
+  flex-direction: row;
+}
 .square_2 p:first-child{
   font-family: "Proxima Regular", helvetica, sans-serif;
   font-size: 1.5vw;
@@ -337,32 +342,33 @@ header .menu img:hover{
   margin-top: 1vw;
 }
 .square_2 p:last-child{
+  width: 25vw;
   font-family: "Proxima Regular", helvetica, sans-serif;
-  font-size: 1.5vw;
-  margin-left: 1vw;
+  font-size: 1.4vw;
   margin-top: 1vw;
+  margin-left: 5vw;
+  padding-right: 1vw;
 }
-.close {
+.close{
   position: absolute;
   height: 1.3vw;
   width: auto;
-  left: 15vw;
+  left: 30vw;
   top: 1vw;
 }
 .close:hover{
   cursor: pointer;
 }
  svg {
-  width: 500%;
-  height: 500%;
+  max-width: 600%;
+  height: auto;
 }
 svg path {
   stroke-width: 2;
 }
 .svg_anim {
-  position: absolute;
-  margin-left: 25%;
-  margin-top: 20%;
+  margin-left: 10%;
+  margin-top: 10%;
   max-width: 7vw;
   height: auto;
 }
@@ -371,12 +377,10 @@ svg path {
 }
 
 
-
-
 /* svg size & position */
 .all_elements .square_1:nth-of-type(1) svg{
   margin-left: 1.5vw;
-  margin-top: 0.5vw;
+  /* margin-top: 0.5vw; */
 }
 .all_elements .square_1:nth-of-type(2) svg{
   width: 400%;
@@ -453,7 +457,7 @@ footer{
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 105vw;
+  /* margin-top: 105vw; */
 }
 footer p{
   font-family: "Proxima Regular", helvetica, sans-serif;

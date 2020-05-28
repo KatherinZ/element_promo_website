@@ -14,7 +14,7 @@ document.getElementsByClassName('line').onclick = function(){
 
  // рандом через anime
 
-   el.style.transform = `translate(${anime.random(5, 90)}vw, ${anime.random(0, 30)}vh)`
+   el.style.transform = `translate(${anime.random(5, 70)}vw, ${anime.random(0, 30)}vh)`
 
 
 
