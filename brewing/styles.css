@@ -24,6 +24,99 @@
   format('truetype');
 }
 
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  font-weight: auto;
+  src: url(../fonts/Gilroy-SemiBold.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-weight: auto;
+  src: url(../fonts/Gilroy-Medium.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-weight: auto;
+  src: url(../fonts/Gilroy-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "AkzidenzGroteskPro-Regular";
+  font-weight: auto;
+  src: url(../fonts/AkzidenzGroteskPro-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: auto;
+  src: url(../fonts/GothaProReg.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Oldbaskerville";
+  font-weight: auto;
+  src: url(../fonts/7092.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "ScotchModern-Bold";
+  font-weight: auto;
+  src: url(../fonts/ScotchModern-Bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Caslon";
+  font-weight: auto;
+  src: url(../fonts/7092.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Swift";
+  font-weight: auto;
+  src: url(../fonts/Swift-Bold.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "TrajanPro3-Regular";
+  font-weight: auto;
+  src: url(../fonts/TrajanPro3-Regular.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Caslon";
+  font-weight: auto;
+  src: url(../fonts/7129.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Garamond";
+  font-weight: auto;
+  src: url(../fonts/GARA.TTF)
+  format('truetype');
+}
+@font-face {
+  font-family: "Optima";
+  font-weight: auto;
+  src: url(../fonts/Optima.ttf)
+  format('truetype');
+}
+@font-face{
+  font-family: "Didot Regular";
+  font-weight: auto;
+  src: url(../fonts/Didot-Regular.ttf)
+  format('truetype');
+}
+@font-face{
+  font-family: "Adobe Jenson";
+  font-weight: auto;
+  src: url(../fonts/Adobe-Jenson.ttf)
+  format('truetype');
+}
+
+
 body{
   background-color: #000;
   overflow-x: hidden;
@@ -42,7 +135,7 @@ header .links{
   margin-right: 5vw;
 }
 header .menu h2{
-  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
   font-size: 2.5vw;
   margin-left: 3vw;
 }
@@ -54,16 +147,14 @@ header .links:last-child{
 }
 header .menu{
   display: flex;
-
 }
 header .menu img{
   width: 2.5vw;
   height: auto;
   margin: 0vw;
 }
-
 .links a{
-  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
   font-size: 1vw;
   color: #fff;
   text-decoration: underline;
@@ -119,44 +210,239 @@ header .menu img:hover{
   padding-left: 5vw;
 }
 
-.wrapper{
-  position: absolute;
-  margin-left: 5vw;
-  margin-top: 4vw;
-}
-.wrapper .ground{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5vw;
-}
-.wrapper .ground h2 span{
+/* ЭЛЕМЕНТЫ */
+.square_1{
+  border: 0.2vw solid #fff;
+  background-color: none;
+  width: 11vw;
+  height: 11vw;
   color: #fff;
-  font-size: 10vw;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  transform: translateX(20vw);
 }
-.wrapper .ground h2 span:first-child{
-  font-family: "Proxima Bold", helvetica, sans-serif;
-  font-size: 12vw;
-}
-.wrapper .ground p{
-  color: #fff;
-  width: 25vw;
+
+.numbers, .numbers + p{
   font-family: "Proxima Regular", helvetica, sans-serif;
-  font-size: 1.4vw;
+  margin-right: 0.8vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
-.wrapper .ground h2 + p{
+
+.square_1 h2{
+  font-size: 3.5vw;
+  font-weight: 400;
+  margin-left: 1vw;
+  margin-top: 2.7vw;
+}
+.square_1 p{
+  font-size: 0.9vw;
+  font-weight: 400;
+  margin-left: 1vw;
+}
+.numbers{
+  margin-top: 0.8vw;
+}
+.numbers p:last-child{
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  margin-right: 0.2vw;
+}
+.square_1 h2 + p{
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.2vw;
+  margin-top: auto;
+}
+.all_elements{
+  margin-right: 40vw;
+  margin-bottom: 10vw;
+}
+.all_elements, .all_elements .inside_1, .all_elements .inside_2{
+  max-height: 130vw;
   position: absolute;
-  font-family: "Proxima Bold", helvetica, sans-serif;
-  font-size: 2vw;
-  transform: rotate(90deg);
-  transform-origin: top left;
-  margin-left: 60vw;
-  margin-top: 2vw;
 }
-.wrapper .ground p:last-child{
+.all_elements .inside_2{
+  position: absolute;
+  margin-top: -100vw;
+}
+.all_elements .square_1:first-child h2{
+  margin-top: 2.5vw;
+}
+.all_elements .square_1:first-child h2 + p{
+  margin-top: 0.5vw;
+}
+
+/* ШРИФТЫ */
+.all_elements .square_1:nth-of-type(1) h2{
+  font-family: "ScotchModern-Bold", serif;
+}
+.all_elements .square_1:nth-of-type(2) h2{
+  font-family: times, serif;
+}
+.all_elements .square_1:nth-of-type(3) h2{
+  font-family: "TrajanPro3-Regular", serif;
+}
+.all_elements .square_1:nth-of-type(4) h2{
+  font-family: "Garamond", serif;
+}
+.all_elements .square_1:nth-of-type(5) h2{
+  font-family: "Oldbaskerville", serif;
+}
+.all_elements .square_1:nth-of-type(6) h2{
+  font-family: "Didot Regular", serif;
+}
+.all_elements .square_1:nth-of-type(7) h2{
+  font-family: "Swift", serif;
+}
+.all_elements .square_1:nth-of-type(8) h2{
+  font-family: "Bodoni", serif;
+}
+.all_elements .square_1:nth-of-type(9) h2{
+  font-family: "Adobe Jenson", serif;
+}
+.all_elements .square_1:nth-of-type(10) h2{
+  font-family: "univers LT CYR", helvetica, sans-serif;
+}
+.all_elements .square_1:nth-of-type(11) h2{
+  font-family: "AkzidenzGroteskPro-Regular", helvetica, sans-serif;
+}
+.all_elements .square_1:nth-of-type(12) h2{
+  font-family: arial, sans-serif;
+}
+.all_elements .square_1:nth-of-type(13) h2{
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.all_elements .square_1:nth-of-type(14) h2{
+  font-family: "Gotham", sans-serif;
+}
+.square_2{
+  width: 17.5vw;
+  height: 17.5vw;
+  color: #fff;
+  background-color: #000;
+  border: 0.25vw solid #fff;
+  margin-left: -1.8vw;
+  margin-top: -1.8vw;
+  top: 0;
+  position: absolute;
+  z-index: 100;
+}
+.square_2{
+  display: none;
+}
+.square_2 p:first-child{
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.5vw;
+  margin-left: 1vw;
   margin-top: 1vw;
-  margin-left: 10vw;
 }
+.square_2 p:last-child{
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.close {
+  position: absolute;
+  height: 1.3vw;
+  width: auto;
+  left: 15vw;
+  top: 1vw;
+}
+.close:hover{
+  cursor: pointer;
+}
+ svg {
+  width: 500%;
+  height: 500%;
+}
+svg path {
+  stroke-width: 2;
+}
+.svg_anim {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 20%;
+  max-width: 7vw;
+  height: auto;
+}
+.svg_anim path{
+  -webkit-transition: none;
+}
+
+
+
+
+/* svg size & position */
+.all_elements .square_1:nth-of-type(1) svg{
+  margin-left: 1.5vw;
+  margin-top: 0.5vw;
+}
+.all_elements .square_1:nth-of-type(2) svg{
+  width: 400%;
+  height: auto;
+  margin-left: -1.8vw;
+  margin-top: 0;
+}
+.all_elements .square_1:nth-of-type(3) svg{
+  margin-left: -0.7vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(4) svg{
+  margin-left: 0.8vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(5) svg{
+  margin-left: -1vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(6) svg{
+  width: 400%;
+  height: auto;
+  margin-left: -0.7vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(7) svg{
+  width: 350%;
+  height: auto;
+  margin-left: 2.2vw;
+  margin-top: -1.3vw;
+}
+.all_elements .square_1:nth-of-type(8) svg{
+  width: 600%;
+  height: auto;
+  margin-left: 1vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(9) svg{
+  width: 550%;
+  height: auto;
+  margin-left: 0.7vw;
+}
+.all_elements .square_1:nth-of-type(10) svg{
+  width: 400%;
+  height: auto;
+  margin-top: -1vw;
+  margin-left: 0.7vw;
+}
+.all_elements .square_1:nth-of-type(11) svg{
+  margin-top: 1vw;
+}
+.all_elements .square_1:nth-of-type(12) svg{
+  margin-left: 1vw;
+}
+.all_elements .square_1:nth-of-type(13) svg{
+  margin-left: 1.4vw;
+  margin-top: -1.5vw;
+}
+.all_elements .square_1:nth-of-type(14) svg{
+  width: 400%;
+  height: auto;
+  margin-left: 1.4vw;
+  margin-top: -1.5vw;
+}
+
+/* ЭЛЕМЕНТЫ OVER */
 
 
 footer{
@@ -170,7 +456,7 @@ footer{
   margin-top: 105vw;
 }
 footer p{
-  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-family: "Proxima Regular", helvetica, sans-serif;
   font-size: 1.2vw;
   color: #fff;
 }
