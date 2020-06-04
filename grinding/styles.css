@@ -1,0 +1,329 @@
+@import "../reset.css";
+@font-face {
+  font-family: "Hagrid Bold";
+  font-weight: auto;
+  src: url(../fonts/hagrid-bold.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Hagrid Medium";
+  font-weight: auto;
+  src: url(../fonts/hagrid-medium.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Proxima Regular";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Regular.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Proxima Bold";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Bold.ttf)
+  format('truetype');
+}
+
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-top: 2vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+header .links{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5vw;
+}
+header .menu h2{
+  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-size: 2.5vw;
+  margin-left: 3vw;
+  color: #000;
+}
+header .links a:nth-of-type(2){
+  margin-left: 4vw;
+}
+header .links:last-child{
+  text-decoration: none;
+}
+header .menu{
+  display: flex;
+
+}
+header .menu img{
+  width: 2.5vw;
+  height: auto;
+  margin: 0vw;
+}
+
+.links a{
+  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-size: 1vw;
+  color: #000;
+  text-decoration: underline;
+  margin-left: 1vw;
+}
+.links a:hover{
+  text-decoration: none;
+}
+.links a img{
+  position: absolute;
+  top: 1.3vw;
+  right: 2vw;
+  width: 2.5vw;
+}
+header .burger{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  background-color: #000;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  overflow-y: hidden;
+}
+header .menu img:hover{
+  cursor: pointer;
+}
+header .burger{
+  position: absolute;
+}
+header .burger .zag {
+  z-index: 10;
+}
+header .burger .zag a:first-child{
+  margin-top: 1vw;
+  margin-left: 40vw;
+}
+header .burger .zag a:nth-of-type(2){
+  margin-top: 1vw;
+  margin-left: -30vw;
+}
+header .burger .zag a:nth-of-type(3){
+  margin-top: 1vw;
+  margin-left: 10vw;
+}
+header .burger .zag a:nth-of-type(4){
+  margin-top: 1vw;
+  margin-left: -10vw;
+}
+header .burger .zag a:nth-of-type(5){
+  margin-top: 1vw;
+  margin-left: 33vw;
+}
+header .burger .zag a:nth-of-type(6){
+  margin-top: 1vw;
+  margin-left: -25vw;
+}
+header .burger .zag,
+header .burger .lines{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 2vw;
+}
+.burger .lines .rect{
+  background-color: #fff;
+  width: 90vw;
+  height: 0.15vw;
+  margin-top: 7vw;
+}
+header .burger > img{
+  width: 2.5vw;
+  height: auto;
+  margin-left: -2vw;
+  margin-top: 2vw;
+}
+.burger .beans img{
+  width: 4.5vw;
+}
+.burger .beans img:first-child{
+  position: absolute;
+  left: 40vw;
+  top: 3vw;
+}
+.burger .beans img:nth-of-type(2){
+  position: absolute;
+  margin-left:  70vw;
+  margin-top: 5vw;
+  transform: rotate(45deg);
+  transform-origin: top left;
+}
+.burger .beans img:nth-of-type(3){
+  position: absolute;
+  margin-left:  5vw;
+  margin-top: 15vw;
+  transform: rotate(-25deg);
+  transform-origin: top left;
+}
+.burger .beans img:nth-of-type(4){
+  position: absolute;
+  margin-left:  55vw;
+  margin-top: 22vw;
+}
+.burger .beans img:nth-of-type(5){
+  position: absolute;
+  margin-left:  2vw;
+  margin-top: 30vw;
+}
+.burger .beans img:nth-of-type(6){
+  position: absolute;
+  margin-left:  80vw;
+  margin-top: 39vw;
+  transform: rotate(45deg);
+  transform-origin: top left;
+}
+.burger a{
+  color: #fff;
+  text-decoration: none;
+  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-size: 3.5vw;
+  padding-left: 35vw;
+}
+.burger h2{
+  margin-top: -2vw;
+  padding-top: 4.6vw;
+}
+.burger:nth-child(2){
+  padding-left: 5vw;
+}
+
+.wrapper h2{
+  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-size: 22vw;
+}
+.wrapper p{
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 1.4vw;
+  width: 23vw;
+  margin-top: 3vw;
+  padding-left: 1.5vw;
+  line-height: 1.2;
+}
+.wrapper .info{
+  display: flex;
+}
+.wrapper .info:first-child{
+  margin: 5vw;
+}
+.wrapper .info:nth-of-type(3){
+  margin-left: 55vw;
+  margin-top: -20vw;
+}
+.wrapper .info:nth-of-type(5){
+  margin-left: 22vw;
+  margin-top: 30vw;
+}
+.wrapper .info:nth-of-type(8){
+  margin-left: 62vw;
+  margin-top: 5vw;
+  width: 35vw;
+}
+.wrapper .diagonal{
+  position: absolute;
+  background-color: #000;
+  width: 130vw;
+  height: 1.5vw;
+}
+.wrapper .diagonal:nth-of-type(2){
+  transform-origin: center;
+  transform: rotate(-45deg);
+  width: 100vw;
+  left: -4vw;
+  top: 20vw;
+}
+.wrapper .diagonal:nth-of-type(4){
+  transform-origin: center;
+  transform: rotate(75deg);
+  width: 103vw;
+  top: 63vw;
+  left: -39vw;
+}
+.wrapper .diagonal:nth-of-type(6){
+  transform-origin: center;
+  transform: rotate(-22deg);
+  width: 140vw;
+  top: 50vw;
+  left: -7vw;
+}
+.wrapper .diagonal:nth-of-type(7){
+  transform-origin: center;
+  transform: rotate(33deg);
+  width: 90vw;
+  top: 57vw;
+  left: 26vw;
+}
+.wrapper .diagonal:nth-of-type(9){
+  transform-origin: center;
+  transform: rotate(-70deg);
+  width: 70vw;
+  top: 85vw;
+  left: 20vw;
+}
+.wrapper .diagonal:last-child{
+  transform-origin: center;
+  transform: rotate(-6deg);
+  width: 25vw;
+  top: 108vw;
+  left: -1vw;
+}
+.wrapper img{
+  position: absolute;
+  top: 20vw;
+  z-index: -10;
+}
+.wrapper img:nth-of-type(1){
+  top: 20vw;
+  width: 13.5vw;
+  height: auto;
+}
+.wrapper img:nth-of-type(2){
+  top: 33.5vw;
+  left: 11vw;
+  width: 50vw;
+  height: auto;
+}
+.wrapper img:nth-of-type(3){
+  top: 35vw;
+  left: 61vw;
+  width: 40vw;
+  height: auto;
+}
+.wrapper img:nth-of-type(4){
+  top: 71vw;
+  width: 24vw;
+  height: auto;
+}
+
+
+footer{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+footer p{
+  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-size: 1.2vw;
+  color: #000;
+}
+footer .social a img{
+  height: 1.8vw;
+  width: auto;
+  margin-left: 0.3vw;
+}
+footer .social{
+  margin-left: 75vw;
+}
