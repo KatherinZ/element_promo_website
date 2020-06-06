@@ -327,3 +327,13 @@ footer .social a img{
 footer .social{
   margin-left: 75vw;
 }
+
+
+/* адаптив */
+
+@media (max-width: 1024px) {
+  .ground p:last-child{
+    font-size: 1.1vw;
+
+  }
+}
