@@ -55,7 +55,6 @@ header .links:last-child{
 }
 header .menu{
   display: flex;
-
 }
 header .menu img{
   width: 2.5vw;
@@ -93,9 +92,6 @@ header .burger{
 }
 header .menu img:hover{
   cursor: pointer;
-}
-header .burger{
-  position: absolute;
 }
 header .burger .zag {
   z-index: 10;
@@ -197,6 +193,18 @@ header .burger > img{
 .burger:nth-child(2){
   padding-left: 5vw;
 }
+
+header .burger .zag a:nth-of-type(7) h2,
+header .burger .zag a:nth-of-type(8) h2{
+  display: none;
+}
+.burger .lines .rect:nth-of-type(7),
+.burger .lines .rect:nth-of-type(8){
+  display: none;
+}
+
+
+
 .wrapper{
   display: grid;
   grid-template-columns: 1fr 9fr 1fr 9fr 1fr 9fr 1fr 9fr;
@@ -216,8 +224,9 @@ header .burger > img{
   flex-direction: column;
   border: 0.1vw solid #000;
   width: 3vw;
-  margin-left: -0.1vw;
+  margin-left: -0.15vw;
   margin-top: -0.1vw;
+  margin-bottom: -0.2vw;
 }
 .wrapper h2{
   position: fixed;
@@ -227,11 +236,8 @@ header .burger > img{
   transform-origin: bottom right;
   text-transform: uppercase;
   text-align: left;
-  margin-left: -11vw;
   margin-top: 3vw;
-}
-.wrapper .column .side h2:nth-of-type(2){
-    margin-left: 5vw;
+  margin-left: -10.7vw;
 }
 .wrapper p{
   margin-top: 22vw;
@@ -260,6 +266,7 @@ footer{
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
+  margin-bottom: 1.5vw;
 }
 footer p{
   font-family: "Proxima Bold",helvetica, sans-serif;
@@ -272,5 +279,273 @@ footer .social a img{
   margin-left: 0.3vw;
 }
 footer .social{
-  margin-left: 75vw;
+  margin-left: 73vw;
+}
+
+/* адаптив */
+
+@media (max-width: 1024px) {
+  header{
+    margin-top: 4vw;
+  }
+  header .burger{
+    height: 1366px;
+  }
+  header .menu img{
+    width: 3vw;
+  }
+  header .menu h2{
+    font-size: 3vw;
+  }
+  .links a{
+    font-size: 1.2vw;
+  }
+  .links a img{
+    width: 3vw;
+    top: 3vw;
+  }
+  header .burger > img{
+    width: 3.5vw;
+    margin-left: -2vw;
+    margin-top: 4vw;
+  }
+  .burger .lines .rect{
+    background-color: #fff;
+    width: 80vw;
+    margin-top: 15vw;
+    margin-left: 6vw;
+}
+header .burger .zag a:first-child,
+header .burger .zag a:nth-of-type(2),
+header .burger .zag a:nth-of-type(3),
+header .burger .zag a:nth-of-type(4),
+header .burger .zag a:nth-of-type(5),
+header .burger .zag a:nth-of-type(6){
+  margin-top: 9vw;
+}
+.burger .beans img:first-child{
+  position: absolute;
+  left: 40vw;
+  top: 10vw;
+}
+.burger .beans img:nth-of-type(2){
+  margin-left:  70vw;
+  margin-top: 20vw;
+}
+.burger .beans img:nth-of-type(3){
+  margin-left:  5vw;
+  margin-top: 29vw;
+}
+.burger .beans img:nth-of-type(4){
+  margin-left:  55vw;
+  margin-top: 45vw;
+}
+.burger .beans img:nth-of-type(5){
+  margin-left:  5vw;
+  margin-top: 60vw;
+}
+.burger .beans img:nth-of-type(6){
+  margin-left:  80vw;
+  margin-top: 79vw;
+}
+
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+}
+.wrapper .column{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 0.1vw solid #000;
+  width: 100vw;
+  height: 25vw;
+  overflow-y: hidden;
+}
+.wrapper .side{
+  display: flex;
+  flex-direction: column;
+  border: 0.1vw solid #000;
+  margin-left: -8vw;
+  height: auto;
+}
+.wrapper h2{
+  position: relative;
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+  margin-right: 0.5vw;
+}
+.wrapper p{
+  margin-top: 5vw;
+  width: 70vw;
+}
+.column img{
+  padding: 0.5vw;
+  padding-bottom: 1vw;
+}
+
+
+footer p{
+  font-size: 1.5vw;
+}
+}
+@media (max-width: 320px) {
+  header .burger{
+    height: 568px;
+  }
+  header .menu img{
+   width: 2vw;
+  }
+  header .links a:first-child,
+  header .links a:nth-of-type(2){
+  display: none;
+  }
+ header .menu h2{
+   font-size: 4vw;
+   margin-left: 38vw;
+   text-align: center;
+ }
+ header .menu img:first-child{
+   width: 4vw;
+ }
+ header .links a:last-child img{
+   width: 3.5vw;
+   height: auto;
+   margin-right: 1vw;
+ }
+
+ header .burger .zag a:nth-of-type(7) h2,
+ header .burger .zag a:nth-of-type(8) h2{
+   display: block;
+ }
+ .burger .lines .rect:nth-of-type(7),
+ .burger .lines .rect:nth-of-type(8){
+   display: block;
+ }
+
+ header .burger > img{
+   width: 4vw;
+   height: auto;
+   margin-left: -2vw;
+   margin-top: 4vw;
+ }
+ .burger .lines .rect{
+   background-color: #fff;
+   width: 80vw;
+   margin-top: 20vw;
+   margin-left: 6vw;
+}
+header .burger .zag a:first-child,
+header .burger .zag a:nth-of-type(2),
+header .burger .zag a:nth-of-type(3),
+header .burger .zag a:nth-of-type(4),
+header .burger .zag a:nth-of-type(5),
+header .burger .zag a:nth-of-type(6),
+header .burger .zag a:nth-of-type(7),
+header .burger .zag a:nth-of-type(8){
+ margin-top: 12vw;
+}
+header .burger .zag a:nth-of-type(4){
+   margin-top: 13vw;
+}
+header .burger .zag a:nth-of-type(5){
+   margin-top: 13vw;
+   margin-left: 10vw;
+}
+header .burger .zag a:nth-of-type(7){
+   margin-top: 13vw;
+   margin-left: 1vw;
+}
+header .burger .zag a:nth-of-type(8){
+   margin-top: 12vw;
+   margin-left: 12vw;
+}
+header .burger .zag a:first-child{
+   margin-left: 30vw;
+}
+header .burger .zag a h2{
+ font-size: 5vw;
+}
+.burger .beans img:first-child{
+ left: 40vw;
+ top: 20vw;
+}
+.burger .beans img:nth-of-type(2){
+ margin-left:  70vw;
+ margin-top: 25vw;
+}
+.burger .beans img:nth-of-type(3){
+ margin-left:  5vw;
+ margin-top: 80vw;
+}
+.burger .beans img:nth-of-type(4){
+ margin-left:  55vw;
+ margin-top: 56vw;
+}
+.burger .beans img:nth-of-type(5){
+ margin-left:  25vw;
+ margin-top: 95vw;
+}
+.burger .beans img:nth-of-type(6){
+ margin-left:  80vw;
+ margin-top: 120vw;
+}
+.burger .beans img{
+  width: 7vw;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vw;
+}
+.wrapper .column{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 0.05vw solid #000;
+  width: 100vw;
+  height: 50vw;
+  overflow-y: scroll;
+}
+.wrapper .side{
+  display: flex;
+  flex-direction: column;
+  border: 0.1vw solid #000;
+  width: 10vw;
+  margin-left: -12vw;
+  margin-top: -1vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+.wrapper h2{
+  font-size: 2.5vw;
+  margin-bottom: 5vw;
+  margin-right: 3vw;
+}
+.wrapper p{
+  font-size: 2vw;
+  margin-top: 5vw;
+  width: 50vw;
+}
+.column img{
+  width: 4vw;
+  padding-left: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+footer .social a img{
+  height: 2.5vw;
+}
+footer p{
+ font-size: 2vw;
+ margin-top: 2.8vw;
+}
+footer .social{
+  margin-left: 64vw;
+}
 }

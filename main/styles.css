@@ -289,9 +289,9 @@ h1{
   color: #000;
   transform: translateX(20vw);
 }
-/* .block_1{
+.block_1{
   display: none;
-} */
+}
 
 .numbers, .numbers + p{
   font-family: 'Gilroy-Medium', helvetica, sans-serif;
