@@ -439,6 +439,7 @@ grid-column-end: 3;
 footer{
   position: relative;
   top: 5vw;
+  margin-bottom: 2vw;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -592,6 +593,7 @@ width: 30vw;
 footer p{
   font-size: 1.5vw;
 }
+
 }
 @media (max-width: 320px) {
   header .burger{
@@ -709,6 +711,9 @@ header .burger .zag a h2{
 }
 .wrapper h2{
   margin-left: 5vw;
+}
+.wrapper h2:nth-of-type(1){
+  margin-top: 16vw;
 }
 .wrapper .in_grid:nth-of-type(1){
   grid-column-start: 1;
@@ -908,7 +913,15 @@ display: none;
   margin-left: 5vw;
   margin-top: 2vw;
 }
-.wrapper .in_grid:nth-of-type(34){
+.wrapper .in_grid:nth-of-type(34),
+.wrapper .in_grid:nth-of-type(42),
+.wrapper .in_grid:nth-of-type(43),
+.wrapper .in_grid:nth-of-type(44),
+.wrapper .in_grid:nth-of-type(45),
+.wrapper .in_grid:nth-of-type(47),
+.wrapper .in_grid:nth-of-type(50),
+.wrapper .in_grid:nth-of-type(51)
+{
   display: none;
 }
 .wrapper .in_grid:nth-of-type(36){
@@ -924,7 +937,15 @@ display: none;
 }
 .wrapper .in_grid:nth-of-type(37){
   grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 20;
+  grid-row-end: 21;
+}
+.wrapper .in_grid:nth-of-type(37){
+  grid-column-start: 4;
   grid-column-end: 6;
+  grid-row-start: 19;
+  grid-row-end: 21;
 }
 .wrapper .in_grid:nth-of-type(39){
   grid-column-start: 1;
@@ -955,7 +976,7 @@ display: none;
   grid-row-end: 21;
 }
 .wrapper .in_grid:nth-of-type(46) p{
-  width: 30vw;
+  width: 37vw;
   margin-left: 5vw;
   margin-top: 2vw;
   margin-bottom: 6.5vw;
@@ -973,8 +994,12 @@ display: none;
   margin-top: 8vw;
   margin-bottom: 3vw;
 }
+.wrapper .in_grid:nth-of-type(54){
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
 .wrapper .in_grid:nth-of-type(54) p{
-  font-size: 1.1vw;
+  font-size: 2.5vw;
   margin-left: 5vw;
   margin-top: 2vw;
   margin-bottom: 11vw;
@@ -982,10 +1007,14 @@ display: none;
 .wrapper .in_grid:nth-of-type(54) p a:hover{
   text-decoration: none;
 }
-
-
+footer{
+  margin-top: -150vw;
+}
 footer p{
- font-size: 2vw;
- margin-top: 2.8vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+footer a img{
+  max-height: 3vw;
 }
 }
