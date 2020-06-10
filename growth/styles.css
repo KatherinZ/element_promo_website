@@ -296,14 +296,6 @@ footer a img{
   .ground p:last-child{
     font-size: 1.1vw;
   }
-  header .burger .zag a:nth-of-type(7),
-  header .burger .zag a:nth-of-type(8){
-    display: none;
-  }
-  .burger .lines .rect:nth-of-type(7),
-  .burger .lines .rect:nth-of-type(8){
-    display: none;
-  }
   .burger .lines .rect{
     background-color: #fff;
     width: 80vw;
@@ -409,16 +401,6 @@ header .burger .zag a:nth-of-type(8) h2{
    max-height: 3vw;
  }
 
- }
- header .burger .zag a:nth-of-type(7) h2,
- header .burger .zag a:nth-of-type(8) h2{
-   display: block;
- }
- .burger .lines .rect:nth-of-type(7),
- .burger .lines .rect:nth-of-type(8){
-   display: block;
- }
-
  header .burger > img{
    width: 4vw;
    height: auto;
@@ -479,6 +461,15 @@ header .burger .zag a h2{
 }
 .burger .beans img{
   width: 7vw;
+}
+
+header .burger .zag a:nth-of-type(7) h2,
+header .burger .zag a:nth-of-type(8) h2{
+  display: block;
+}
+.burger .lines .rect:nth-of-type(7),
+.burger .lines .rect:nth-of-type(8){
+  display: block;
 }
 
 }

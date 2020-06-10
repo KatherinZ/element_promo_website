@@ -92,9 +92,6 @@ header .burger{
 header .menu img:hover{
   cursor: pointer;
 }
-header .burger{
-  position: absolute;
-}
 header .burger .zag {
   z-index: 10;
 }
