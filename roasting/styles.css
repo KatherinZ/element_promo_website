@@ -218,6 +218,9 @@ header .burger > img{
    margin-left: -0.1vw;
    margin-top: -0.1vw;
 }
+.wrapper .box .name:hover{
+  cursor: pointer;
+}
 .box .name h3{
   color: #fff;
   font-size: 1vw;
@@ -229,14 +232,21 @@ header .burger > img{
   margin-left: 1vw;
   margin-top: 0.6vw;
 }
+.box .palette{
+  background-color: #000;
+}
 .box .palette .color{
   display: block;
-    position: absolute;
+  position: absolute;
   width: 20vw;
   height: 10vw;
   background-color: #210E0E;
-  z-index: -1;
+  z-index: 2;
   opacity: 1;
+}
+.box .palette .color:hover{
+    opacity: 0;
+    transition: ease-in-out 200ms;
 }
 .box .palette p{
   position: absolute;
@@ -244,11 +254,14 @@ header .burger > img{
   font-size: 1vw;
   font-family: "Proxima Regular", helvetica, sans-serif;
   margin: 1vw;
-  z-index: -2;
 }
-/* .box .palette p{
-  display: none;
-} */
+.box .palette p span{
+  display: flex;
+  flex-direction: column;
+}
+.box .palette p{
+z-index: 0;
+}
 
 .wrapper .box:first-child{
   z-index: 1;
@@ -326,8 +339,10 @@ footer p{
   font-family: "Proxima Bold", helvetica, sans-serif;
   font-size: 1.2vw;
 }
-footer a img{
-  max-height: 3vw;
+footer .social a img{
+  height: 1.8vw;
+  width: auto;
+  margin-left: 0.3vw;
 }
 
 

@@ -244,6 +244,17 @@ header .burger > img{
   margin-top: 1vw;
   margin-left: 10vw;
 }
+.svg_anim{
+  position: absolute;
+  top: 10vw;
+  left: -10vw;
+}
+svg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
 
 
 footer{
@@ -255,7 +266,6 @@ footer{
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 105vw;
-  margin-bottom: 0vw;
 }
 footer p{
   font-family: "Proxima Bold",helvetica, sans-serif;

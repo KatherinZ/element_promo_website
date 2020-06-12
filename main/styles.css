@@ -12,6 +12,12 @@
   format('opentype');
 }
 @font-face {
+  font-family: "Hagrid Regular";
+  font-weight: auto;
+  src: url(../fonts/hagrid-Regular.otf)
+  format('opentype');
+}
+@font-face {
   font-family: "Proxima Regular";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Regular.ttf)
