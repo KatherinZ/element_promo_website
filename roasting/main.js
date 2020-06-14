@@ -52,7 +52,7 @@ document.getElementById('cross').onclick = function(){
    }
  }
 
- // 
+ //
  // let colorPalette = document.querySelectorAll('.palette .color')
  // let textPalette = document.querySelectorAll('.palette p')
  //

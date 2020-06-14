@@ -191,7 +191,7 @@ header .burger > img{
   padding-left: 5vw;
 }
 
-header + h3{
+ .names h3{
   position: fixed;
   font-size: 1vw;
   font-family: "Hagrid Medium", helvetica, sans-serif;
@@ -200,6 +200,16 @@ header + h3{
   color: #fff;
   left: 3vw;
   top: 24vw;
+}
+.names h3:nth-of-type(2){
+  position: absolute;
+  left: 0vw;
+  top: 98vw;
+}
+.names h3:last-child{
+  position: absolute;
+  left: 2vw;
+  top: 233vw;
 }
 
 
@@ -291,6 +301,7 @@ width: 51.5vw;
   font-size: 5vw;
   margin-left: 2vw;
   margin-top: 3vw;
+  transform: rotate(0deg);
 }
 .wrapper .in_grid:nth-of-type(13){
 grid-column-start: 1;
