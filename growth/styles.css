@@ -273,8 +273,7 @@ footer p{
   color: #fff;
 }
 footer a img{
-  max-height: 2vw;
-  margin-top: -2vw;
+  max-height: 3vw;
 }
 
 
@@ -356,67 +355,36 @@ header .burger .zag a:nth-of-type(8) h2{
 
 }
 @media (max-width: 320px) {
-  header .menu img{
-   width: 2vw;
+  header .burger{
+    height: 568px;
   }
   header .links a:first-child,
   header .links a:nth-of-type(2){
   display: none;
   }
- .ground{
-   display: flex;
-   flex-direction: column;
- }
- .wrapper .ground h2 + p{
-   font-size: 3vw;
-   margin-left: 7vw;
-   margin-top: 20vw;
- }
- .wrapper .ground p:last-child{
-   font-size: 3vw;
-   margin-top: 4vw;
-   width: 50vw;
- }
- .wrapper .ground h2{
-   margin-left: 2vw;
- }
-  .wrapper .ground h2 span:last-child{
-   font-size: 13vw;
- }
- .wrapper .ground h2 span:first-child{
-   font-size: 15vw;
- }
- header .menu h2{
-   font-size: 4vw;
-   margin-left: 38vw;
-   text-align: center;
- }
- header .menu img:first-child{
-   width: 4vw;
+  header .menu h2{
+    font-size: 4vw;
+    margin-left: 24vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+ .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
  }
  header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
- }
- footer{
-  position: relative;
-  margin-top: 260vw;
- }
- footer p{
-   font-size: 2vw;
+   width: 5.6vw;
    margin-top: 4vw;
- }
- footer a img{
-   max-height: 3vw;
+   margin-right: 4vw;
  }
 
  header .burger > img{
-   width: 4vw;
+   width: 6vw;
    height: auto;
-   margin-left: -2vw;
-   margin-top: 4vw;
+   margin-top: 7vw;
+   margin-left: 2vw;
  }
+
 
  .burger .lines .rect{
    background-color: #fff;
@@ -472,7 +440,10 @@ header .burger .zag a h2{
 .burger .beans img{
   width: 7vw;
 }
-
+header .burger .zag a:nth-of-type(7) h2,
+header .burger .zag a:nth-of-type(8) h2{
+  margin-top: 11vw;
+}
 header .burger .zag a:nth-of-type(7) h2,
 header .burger .zag a:nth-of-type(8) h2{
   display: block;
@@ -480,6 +451,52 @@ header .burger .zag a:nth-of-type(8) h2{
 .burger .lines .rect:nth-of-type(7),
 .burger .lines .rect:nth-of-type(8){
   display: block;
+}
+
+
+.ground{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .ground h2 + p{
+  font-size: 3vw;
+  margin-left: 7vw;
+  margin-top: 20vw;
+}
+.wrapper .ground p:last-child{
+  font-size: 4vw;
+  margin-top: 4vw;
+  width: 50vw;
+}
+.wrapper .ground h2{
+  margin-left: 2vw;
+}
+ .wrapper .ground h2 span:last-child{
+  font-size: 13vw;
+}
+.wrapper .ground h2 span:first-child{
+  font-size: 15vw;
+}
+
+.svg_anim{
+  position: absolute;
+  top: -30vw;
+  left: 40vw;
+}
+svg{
+  width: 200%;
+  height: 200%;
+  opacity: 0.7;
+}
+
+footer{
+ position: relative;
+ margin-top: 356vw;
+}
+footer p{
+  font-size: 2.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 }

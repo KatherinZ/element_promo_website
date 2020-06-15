@@ -202,6 +202,7 @@ header .burger > img{
 position: absolute;
 margin-top: 3vw;
 margin-bottom: -40vw;
+overflow: hidden;
 }
 .wrapper .line{
   display: flex;
@@ -465,37 +466,29 @@ header .burger .zag a:nth-of-type(8) h2{
 
 }
 @media (max-width: 320px) {
+
   header .burger{
     height: 568px;
-  }
-  header .menu img{
-   width: 2vw;
   }
   header .links a:first-child,
   header .links a:nth-of-type(2){
   display: none;
   }
- header .menu h2{
-   font-size: 4vw;
-   margin-left: 38vw;
-   text-align: center;
- }
- header .menu img:first-child{
-   width: 4vw;
+  header .menu h2{
+    font-size: 4vw;
+    margin-left: 24vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+ .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
  }
  header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
- }
-  footer{
-    margin-top: 176vw;
-  }
- footer p{
-   font-size: 2vw;
+   width: 5.6vw;
    margin-top: 4vw;
+   margin-right: 4vw;
  }
-
  header .burger .zag a:nth-of-type(7) h2,
  header .burger .zag a:nth-of-type(8) h2{
    display: block;
@@ -506,11 +499,12 @@ header .burger .zag a:nth-of-type(8) h2{
  }
 
  header .burger > img{
-   width: 4vw;
+   width: 6vw;
    height: auto;
-   margin-left: -2vw;
-   margin-top: 4vw;
+   margin-top: 7vw;
+   margin-left: 2vw;
  }
+
  .burger .lines .rect{
    background-color: #fff;
    width: 80vw;
@@ -575,7 +569,6 @@ header .burger .zag a h2{
 .burger .beans img{
   width: 7vw;
 }
-
 
 
 .wrapper .line{
@@ -655,5 +648,14 @@ header .burger .zag a h2{
   100%{
     margin-left: -100vw;
   }
+}
+footer{
+  margin-top: 176vw;
+}
+footer p{
+ font-size: 2.5vw;
+ margin-top: 2vw;
+ margin-bottom: 2vw;
+ 
 }
 }
