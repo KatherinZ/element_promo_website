@@ -109,6 +109,24 @@ header .burger .zag a:nth-of-type(6){
   margin-top: 1vw;
   margin-left: -25vw;
 }
+header .burger .zag a h2:hover{
+  transform: scale(1.1);
+  transform-origin: center;
+  transition: 200ms ease;
+}
+header .burger .zag a:nth-of-type(2) h2:hover{
+   margin-left: 3vw;
+}
+header .burger .zag a:nth-of-type(3) h2:hover{
+  margin-left: 1vw;
+}
+header .burger .zag a:nth-of-type(4) h2:hover{
+  margin-left: 2vw;
+}
+header .burger .zag a:nth-of-type(6) h2:hover{
+  margin-left: 1.5vw;
+}
+
 header .burger .zag a:nth-of-type(7) h2,
 header .burger .zag a:nth-of-type(8) h2{
   display: none;
@@ -222,6 +240,7 @@ header .burger > img{
   margin-left: 7vw;
   margin-right: 7vw;
   margin-top: -10vw;
+  overflow: hidden;
 }
 
 .wrapper .in_grid{
@@ -540,7 +559,7 @@ header .burger .zag a:nth-of-type(6){
     margin-top: 3vw;
     grid-template-rows: 10vw 15vw 15vw;
 }
-header + h3{
+.names h3{
   display: none;
 }
 .wrapper .in_grid{
@@ -716,6 +735,7 @@ header .burger .zag a h2{
 .wrapper{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(30, 25vw);
+  overflow: hidden;
 }
 .wrapper p{
   font-size: 3vw;
@@ -1019,7 +1039,7 @@ display: none;
   text-decoration: none;
 }
 footer{
-  margin-top: -150vw;
+  margin-bottom: 3vw;
 }
 footer p{
   font-size: 2vw;

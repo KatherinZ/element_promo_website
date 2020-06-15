@@ -28,9 +28,6 @@ document.getElementById('cross').onclick = function(){
    document.getElementById('burger_menu').style.display = 'none'
  }
 
- document.getElementsByClassName('h1').onmouseover = function(){
-   document.getElementsByClassName('block_1').style.filter = 'none'
- }
 
 
  let cezveEl =  document.getElementById('element_j')
@@ -93,6 +90,9 @@ let v60 = anime({
   easing: 'easeInOutSine'
 })
 
+document.getElementsByClassName('h1').onclick = function(){
+  el.style.filter = 'none'
+}
 
 // создать массив с элементами
 

@@ -1,32 +1,32 @@
-@import "../reset.css";
+@import "reset.css";
 @font-face {
   font-family: "Hagrid Bold";
   font-weight: auto;
-  src: url(../fonts/hagrid-bold.otf)
+  src: url(fonts/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.otf)
+  src: url(fonts/hagrid-medium.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Hagrid Regular";
   font-weight: auto;
-  src: url(../fonts/hagrid-Regular.otf)
+  src: url(fonts/hagrid-Regular.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Proxima Regular";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Regular.ttf)
+  src: url(fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima Bold";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Bold.ttf)
+  src: url(fonts/ProximaNova-Bold.ttf)
   format('truetype');
 }
 
@@ -35,67 +35,67 @@
 @font-face {
   font-family: "Gilroy-Regular";
   font-weight: auto;
-  src: url(../fonts/Gilroy-Regular.ttf)
+  src: url(fonts/Gilroy-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "AkzidenzGrotesk";
   font-weight: auto;
-  src: url(../fonts/AkzidenzGroteskPro-Regular.ttf)
+  src: url(fonts/AkzidenzGroteskPro-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Gotham";
   font-weight: auto;
-  src: url(../fonts/GothaProReg.otf)
+  src: url(fonts/GothaProReg.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Oldbaskerville";
   font-weight: auto;
-  src: url(../fonts/7092.ttf)
+  src: url(fonts/7092.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "ScotchModern-Bold";
   font-weight: auto;
-  src: url(../fonts/ScotchModern-Bold.otf)
+  src: url(fonts/ScotchModern-Bold.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Caslon";
   font-weight: auto;
-  src: url(../fonts/7092.ttf)
+  src: url(fonts/7092.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Swift";
   font-weight: auto;
-  src: url(../fonts/Swift-Bold.ttf)
+  src: url(fonts/Swift-Bold.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "TrajanPro3-Regular";
   font-weight: auto;
-  src: url(../fonts/TrajanPro3-Regular.otf)
+  src: url(fonts/TrajanPro3-Regular.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Caslon";
   font-weight: auto;
-  src: url(../fonts/7129.ttf)
+  src: url(fonts/7129.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Garamond";
   font-weight: auto;
-  src: url(../fonts/GARA.TTF)
+  src: url(fonts/GARA.TTF)
   format('truetype');
 }
 @font-face{
   font-family: "Adobe Jenson";
   font-weight: auto;
-  src: url(../fonts/Adobe-Jenson.ttf)
+  src: url(fonts/Adobe-Jenson.ttf)
   format('truetype');
 }
 body{
@@ -461,11 +461,11 @@ header .burger .zag a:nth-of-type(6){
 
 h1{
   font-size: 10vw;
-  margin-top: 30vw;
+  margin-top: 66vw;
   margin-bottom: 30vw;
 }
 .wrapper{
-  margin-top: -60vw;
+  margin-top: -100vw;
 }
 
 footer p{
@@ -579,7 +579,7 @@ header .burger .zag a h2{
 
 h1{
   font-size: 10vw;
-  margin-top: 65vw;
+  margin-top: 70vw;
   margin-bottom: 65vw;
 }
 .wrapper{
