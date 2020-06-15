@@ -17,6 +17,13 @@ let arr = [...document.querySelectorAll('.block_1')].map(function(el) {
 // рандом через anime
 
   el.style.transform = `translate(${anime.random(5, 95)}vw, ${anime.random(0, 80)}vh)`
+
+  document.getElementById('element').onmouseover = function(){
+    document.getElementById('wrapper').style.filter = 'blur(0px)'
+  }
+  document.getElementById('element').onmouseleave = function(){
+    document.getElementById('wrapper').style.filter = 'blur(10px)'
+  }
 })
 
 
@@ -90,9 +97,7 @@ let v60 = anime({
   easing: 'easeInOutSine'
 })
 
-document.getElementsByClassName('h1').onclick = function(){
-  el.style.filter = 'none'
-}
+
 
 // создать массив с элементами
 

@@ -303,6 +303,8 @@ h1{
 .wrapper{
   position: absolute;
   margin-top: -30vw;
+  filter: blur(10px);
+  transition: 200ms ease;
 }
 .block_1{
   position: absolute;
@@ -313,7 +315,6 @@ h1{
   color: #000;
   transform: translateX(20vw);
   z-index: -5;
-  filter: blur(10px);
 }
 /* .block_1{
   display: none;
