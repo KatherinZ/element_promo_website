@@ -24,6 +24,8 @@ let arr = [...document.querySelectorAll('.block_1')].map(function(el) {
   document.getElementById('element').onmouseleave = function(){
     document.getElementById('wrapper').style.filter = 'blur(10px)'
   }
+
+  el.onmouseover = el.style.zIndex = '10'
 })
 
 
@@ -54,6 +56,15 @@ let espresso = anime({
   direction: 'alternate',
   easing: 'easeInOutSine'
 })
+let kemexEl =  document.getElementById('element_ke')
+let cemex = anime({
+  targets: kemexEl,
+  translateX: -15,
+  translateY: -10,
+  loop: true,
+  direction: 'alternate',
+  easing: 'easeInOutSine'
+})
 let rafEl =  document.getElementById('element_ra')
 let raf = anime({
   targets: rafEl,
@@ -79,10 +90,26 @@ let capuccino = anime({
   direction: 'alternate',
   easing: 'easeInOutSine'
 })
+let filterEl =  document.getElementById('element_fi')
+let filter = anime({
+  targets: filterEl,
+  translateY: 15,
+  loop: true,
+  direction: 'alternate',
+  easing: 'easeInOutSine'
+})
 let latteEl =  document.getElementById('element_la')
 let latte = anime({
   targets: latteEl,
   translateX: -10,
+  loop: true,
+  direction: 'alternate',
+  easing: 'easeInOutSine'
+})
+let americanoEl =  document.getElementById('element_am')
+let americano = anime({
+  targets: americanoEl,
+  translateX: 15,
   loop: true,
   direction: 'alternate',
   easing: 'easeInOutSine'

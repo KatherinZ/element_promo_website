@@ -80,7 +80,7 @@ header .menu img{
 header .burger{
   display: none;
   position: absolute;
-  z-index: 10;
+  z-index: 120;
   background-color: #000;
   color: #fff;
   top: 0;
@@ -118,6 +118,23 @@ header .burger .zag a:nth-of-type(5){
 header .burger .zag a:nth-of-type(6){
   margin-top: 1vw;
   margin-left: -25vw;
+}
+header .burger .zag a h2:hover{
+  transform: scale(1.1);
+  transform-origin: center;
+  transition: 200ms ease;
+}
+header .burger .zag a:nth-of-type(2) h2:hover{
+   margin-left: 3vw;
+}
+header .burger .zag a:nth-of-type(3) h2:hover{
+  margin-left: 1vw;
+}
+header .burger .zag a:nth-of-type(4) h2:hover{
+  margin-left: 2vw;
+}
+header .burger .zag a:nth-of-type(6) h2:hover{
+  margin-left: 1.5vw;
 }
 header .burger .zag a:nth-of-type(7) h2,
 header .burger .zag a:nth-of-type(8) h2{
@@ -203,7 +220,10 @@ header .burger > img{
 }
 
 
-
+.wrapper{
+  overflow: hidden;
+  margin-left: 5vw;
+}
 .wrapper .box{
   position: absolute;
   display: grid;
@@ -234,6 +254,7 @@ header .burger > img{
 }
 .box .palette{
   background-color: #000;
+  border-right: 0.1vw solid #fff;
 }
 .box .palette .color{
   display: block;
@@ -241,6 +262,9 @@ header .burger > img{
   width: 20vw;
   height: 10vw;
   background-color: #210E0E;
+  border: 0.1vw solid #fff;
+  margin-left: -0.1vw;
+  margin-top: -0.1vw;
   z-index: 2;
   opacity: 1;
 }
@@ -253,7 +277,7 @@ header .burger > img{
   color: #fff;
   font-size: 1vw;
   font-family: "Proxima Regular", helvetica, sans-serif;
-  margin: 1vw;
+  margin: 2vw;
 }
 .box .palette p span{
   display: flex;
@@ -340,8 +364,7 @@ footer p{
   font-size: 1.2vw;
 }
 footer .social a img{
-  height: 1.8vw;
-  width: auto;
+  height: 2vw;
   margin-left: 0.3vw;
 }
 
@@ -414,16 +437,90 @@ header .burger .zag a:nth-of-type(6){
   margin-top: 79vw;
 }
 
+.wrapper{
+  margin: 0;
+  margin-top: vw;
+}
+.wrapper .box{
+  position: absolute;
+  display: grid;
+  grid-template-rows: 4vw 4vw 20vw;
+  border: 0.05vw solid #fff;
+  width: 37vw;
+  height: 30vw;
+}
+.wrapper .box .name, .sign{
+   width: 37vw;
+}
+.box .name h3{
+  font-size: 2vw;
+  margin: 1.5vw;
+}
+.box .sign img{
+  height: 2vw;
+}
+.box .palette{
+  height: 22vw;
+}
+.box .palette .color{
+  width: 37vw;
+  height: 22vw;
+  border: 0.05vw solid #fff;
+}
+.box .palette p{
+  font-size: 2vw;
+  margin: 3vw;
+  width: 30vw;
+}
+.box .sign img{
+  height: 2vw;
+  margin: 1vw;
+}
+
+.wrapper .box:first-child{
+  margin-left: 22vw;
+  margin-top: 6vw;
+}
+.wrapper .box:nth-of-type(2){
+  margin-left: 54vw;
+  margin-top: 15vw;
+}
+.wrapper .box:nth-of-type(3){
+  margin-left: 12vw;
+  margin-top: 30vw;
+}
+.wrapper .box:nth-of-type(4){
+  margin-left: 42vw;
+  margin-top: 41vw;
+}
+.wrapper .box:nth-of-type(5){
+  margin-left: 18vw;
+  margin-top: 58vw;
+}
+.wrapper .box:nth-of-type(6){
+  margin-left: 52vw;
+  margin-top: 65vw;
+}
+.wrapper .box:nth-of-type(7){
+  margin-left: 27vw;
+  margin-top: 74vw;
+}
+.wrapper .box:nth-of-type(8){
+  margin-left: 56vw;
+  margin-top: 84vw;
+}
+
+
+footer{
+  margin-top: 116vw;
+}
 footer p{
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 }
 @media (max-width: 320px) {
   header .burger{
     height: 568px;
-  }
-  header .menu img{
-   width: 2vw;
   }
   header .links a:first-child,
   header .links a:nth-of-type(2){
@@ -431,18 +528,20 @@ footer p{
   }
  header .menu h2{
    font-size: 4vw;
-   margin-left: 38vw;
+   margin-left: 24vw;
    text-align: center;
+   margin-top: 5vw;
+
  }
- header .menu img:first-child{
-   width: 4vw;
+ .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
  }
  header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
+   width: 5.6vw;
+   margin-top: 4vw;
+   margin-right: 4vw;
  }
-
  header .burger .zag a:nth-of-type(7) h2,
  header .burger .zag a:nth-of-type(8) h2{
    display: block;
@@ -453,10 +552,10 @@ footer p{
  }
 
  header .burger > img{
-   width: 4vw;
+   width: 6vw;
    height: auto;
-   margin-left: -2vw;
-   margin-top: 4vw;
+   margin-top: 7vw;
+   margin-left: 2vw;
  }
  .burger .lines .rect{
    background-color: #fff;
@@ -524,91 +623,90 @@ header .burger .zag a h2{
 }
 
 
-
 .wrapper .box{
-  position: absolute;
-  display: grid;
-  grid-template-rows: 3vw 3vw 10vw;
-  border: 0.05vw solid #fff;
-  width: 40vw;
-  height: 30vw;
+  grid-template-rows: 7vw 7vw 40vw;
+  width: 60vw;
+  height: 53.5vw;
 }
- .sign{
-   width: 40vw;
-   height: 7vw;
-   margin-left: -0.3vw;
-   margin-top: -0.3vw;
-}
- .wrapper .name{
-   width: 40vw;
-   height: 7vw;
+.wrapper .box .name, .sign{
+   width: 60vw;
+   height: 20vw;
    margin-left: -0.3vw;
    margin-top: -0.3vw;
 }
 .box .name h3{
   font-size: 2.5vw;
+  margin: 2vw;
 }
 .box .sign img{
   height: 3vw;
-  margin-left: 1vw;
-  margin-top: 0.6vw;
 }
 .box .palette .color{
-  width: 40vw;
-  height: 24vw;
+  width: 60vw;
+  height: 39vw;
+  border: 0.05vw solid #fff;
+  margin-left: -0.3vw;
+}
+.box .palette{
+  margin-top: -0.2vw;
+  border-bottom: 0.1vw solid #fff;
+  border-top: 0.1vw solid #fff;
 }
 .box .palette p{
-  font-size: 2vw;
+  font-size: 4vw;
+  margin: 3vw;
 }
-
-
+.box .sign img{
+  height: 3.5vw;
+  margin: 1.5vw;
+}
 
 .wrapper .box:first-child{
-  margin-left: 50vw;
-  margin-top: 20vw;
+  margin-left: 30vw;
+  margin-top: 10vw;
 }
 .wrapper .box:nth-of-type(2){
-  margin-left: 34vw;
-  margin-top: 39vw;
+  margin-left: 26vw;
+  margin-top: 40vw;
 }
 .wrapper .box:nth-of-type(3){
   margin-left: 12vw;
-  margin-top: 48vw;
-}
-.wrapper .box:nth-of-type(4){
-  margin-left: 37vw;
-  margin-top: 50vw;
-}
-.wrapper .box:nth-of-type(5){
-  margin-left: 46vw;
-  margin-top: 57vw;
-}
-.wrapper .box:nth-of-type(6){
-  margin-left: 30vw;
   margin-top: 65vw;
 }
+.wrapper .box:nth-of-type(4){
+  margin-left: 22vw;
+  margin-top: 85vw;
+}
+.wrapper .box:nth-of-type(5){
+  margin-left: 10vw;
+  margin-top: 110vw;
+}
+.wrapper .box:nth-of-type(6){
+  margin-left: 18vw;
+  margin-top: 145vw;
+}
 .wrapper .box:nth-of-type(7){
-  margin-left: 36vw;
-  margin-top: 75vw;
+  margin-left: 27vw;
+  margin-top: 160vw;
 }
 .wrapper .box:nth-of-type(8){
-  margin-left: 40vw;
-  margin-top: 87vw;
+  margin-left: 15vw;
+  margin-top: 190vw;
 }
 
 
 
 
 footer{
-  margin-top: 145vw;
+  margin-top: 250vw;
+  margin-bottom: 2vw;
 }
 footer p{
  font-size: 2.5vw;
- margin-top: 2.8vw;
+ margin-top: 2vw;
 }
 footer .social a img{
   height: 3vw;
-  width: auto;
   margin-left: 0.3vw;
 }
 }

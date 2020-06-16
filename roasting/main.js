@@ -39,10 +39,10 @@ document.getElementById('cross').onclick = function(){
      pos2 = pos4 - e.clientY
      pos3 = e.clientX
      pos4 = e.clientY
-     elmnt.style.top = (e.clientY - 370) + 'px'
-     elmnt.style.left = (e.clientX - 850) + 'px'
-     let cover = elmnt.style.zIndex
-     elmnt.style.zIndex = cover + '100'
+     elmnt.style.top = (e.clientY - 300) + 'px'
+     elmnt.style.left = (e.clientX - 600) + 'px'
+     // let cover = elmnt.style.zIndex
+     // elmnt.style.zIndex = cover + '20'
    }
 
    function closeDragElement() {
@@ -52,7 +52,100 @@ document.getElementById('cross').onclick = function(){
    }
  }
 
- //
+document.getElementById("first_box").onclick = function(){
+  document.getElementById("first_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+
+document.getElementById("second_box").onclick = function(){
+  document.getElementById("second_box").style.zIndex = '100'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("third_box").onclick = function(){
+  document.getElementById("third_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("fourth_box").onclick = function(){
+  document.getElementById("fourth_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("fifth_box").onclick = function(){
+  document.getElementById("fifth_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("sixth_box").onclick = function(){
+  document.getElementById("sixth_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("seventh_box").onclick = function(){
+  document.getElementById("seventh_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("eighth_box").style.zIndex = '3'
+}
+document.getElementById("eighth_box").onclick = function(){
+  document.getElementById("eighth_box").style.zIndex = '100'
+  document.getElementById("second_box").style.zIndex = '3'
+  document.getElementById("first_box").style.zIndex = '3'
+  document.getElementById("third_box").style.zIndex = '3'
+  document.getElementById("fourth_box").style.zIndex = '3'
+  document.getElementById("fifth_box").style.zIndex = '3'
+  document.getElementById("sixth_box").style.zIndex = '3'
+  document.getElementById("seventh_box").style.zIndex = '3'
+}
+
+
+
+// document.getElementById("fourth_box").onclick = function(){
+//   document.getElementById("fourth_box").style.zIndex = 'this.style.zIndex + 2'
+// }
+// document.getElementById("fifth_box").onclick = function(){
+//   document.getElementById("fifth_box").style.zIndex = '60'
+// document.querySelectorAll(".wrapper > .box:not(#fifth_box)").style.zIndex = '3'
+// }
+
+
+
  // let colorPalette = document.querySelectorAll('.palette .color')
  // let textPalette = document.querySelectorAll('.palette p')
  //

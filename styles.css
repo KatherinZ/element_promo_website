@@ -33,6 +33,18 @@
 
 /* additional fonts */
 @font-face {
+  font-family: "Gilroy-SemiBold";
+  font-weight: auto;
+  src: url(fonts/Gilroy-SemiBold.ttf)
+  format('truetype');
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-weight: auto;
+  src: url(fonts/Gilroy-Medium.ttf)
+  format('truetype');
+}
+@font-face {
   font-family: "Gilroy-Regular";
   font-weight: auto;
   src: url(fonts/Gilroy-Regular.ttf)
@@ -53,8 +65,8 @@
 @font-face {
   font-family: "Oldbaskerville";
   font-weight: auto;
-  src: url(fonts/7092.ttf)
-  format('truetype');
+  src: url(fonts/7092.otf)
+  format('opentype');
 }
 @font-face {
   font-family: "ScotchModern-Bold";
@@ -97,6 +109,18 @@
   font-weight: auto;
   src: url(fonts/Adobe-Jenson.ttf)
   format('truetype');
+}
+@font-face{
+  font-family: "Futura Regular";
+  font-weight: auto;
+  src: url(fonts/FuturaBookC.ttf)
+  format('truetype');
+}
+@font-face{
+  font-family: "Clarendon Regular";
+  font-weight: auto;
+  src: url(fonts/Clarendon Regular.otf)
+  format('opentype');
 }
 body{
   background-color: #fff;
@@ -365,19 +389,28 @@ h1{
   font-family: times, serif;
 }
 .wrapper .block_1:nth-of-type(3) h2{
-  font-family: "TrajanPro3-Regular", serif;
+  font-family: "Hagrid Regular", sans-serif;
 }
 .wrapper .block_1:nth-of-type(4) h2{
-  font-family: "Garamond", serif;
+  font-family: "Didot Regular", serif;
 }
 .wrapper .block_1:nth-of-type(5) h2{
-  font-family: "Oldbaskerville", serif;
+  font-family: "Futura Regular", sans-serif;
 }
 .wrapper .block_1:nth-of-type(6) h2{
-  font-family: "Garamond", serif;
+  font-family: "Oldbaskerville", serif;
 }
 .wrapper .block_1:nth-of-type(7) h2{
-  font-family: "Swift", serif;
+  font-family: "AkzidenzGroteskPro-Regular", sans-serif;
+}
+.wrapper .block_1:nth-of-type(8) h2{
+  font-family: "Adobe Jenson", serif;
+}
+.wrapper .block_1:nth-of-type(9) h2{
+  font-family: "Trajan-Regular", serif;
+}
+.wrapper .block_1:nth-of-type(10) h2{
+  font-family: "Bodoni", serif;
 }
 
 footer{
