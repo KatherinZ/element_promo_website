@@ -271,7 +271,6 @@ overflow: hidden;
   animation: 6s linear infinite both paused move-right;
 }
 .wrapper .line:nth-of-type(2){
-
   animation: 6s linear infinite both move-left;
 }
 .wrapper .line:nth-of-type(2):hover{
@@ -295,8 +294,6 @@ overflow: hidden;
 .wrapper .line:nth-of-type(5):hover{
   animation: 6s linear infinite both paused move-right;
 }
-
-
 
 @keyframes move-left {
   0%{
@@ -409,49 +406,73 @@ header .burger .zag a:nth-of-type(8) h2{
   margin-top: 79vw;
 }
 
+
+.wrapper .line{
+  height: 23vw;
+}
+.wrapper .line .rect{
+  height: 23vw;
+}
+.wrapper .line p{
+  font-size: 2vw;
+}
+.wrapper .line:first-child p{
+  width: 35vw;
+  margin-right: -20vw;
+}
+.wrapper .line:nth-of-type(2) p{
+  width: 23vw;
+}
+.wrapper .line:nth-of-type(3) p{
+  width: 38vw;
+}
+.wrapper .line:nth-of-type(4) p{
+  width: 57vw;
+}
+.wrapper .line:nth-of-type(5) p{
+  width: 25vw;
+}
+
 /* first line */
 .wrapper .line:nth-of-type(1) .rect {
-    margin-left: -13vw;
+    margin-left: -2.5vw;
 }
 .wrapper .line:nth-of-type(1) .rect:nth-of-type(2) {
-    margin-left: 2vw;
+    margin-left: 19vw;
 }
 .wrapper .line:nth-of-type(1) img:nth-of-type(2){
-  margin-left: -13vw;
+  margin-left: -2.5vw;
 }
 
 
 /* second line */
-.wrapper .line:nth-of-type(2) .rect {
-    margin-left: -12vw;
-}
 .wrapper .line:nth-of-type(2) .rect:nth-of-type(2) {
-    margin-left: 1vw;
+    margin-left: 0;
 }
 .wrapper .line:nth-of-type(2) img:nth-of-type(2){
-  margin-left: -12vw;
+  margin-left: 0;
 }
 
 /* third line */
 .wrapper .line:nth-of-type(3) .rect {
-    margin-left: -18vw;
+    margin-left: -1.5vw;
 }
 .wrapper .line:nth-of-type(3) .rect:nth-of-type(2) {
     margin-left: 1vw;
 }
 .wrapper .line:nth-of-type(3) img:nth-of-type(2){
-  margin-left: -18.3vw;
+  margin-left: -2vw;
 }
 
 /* fourth line */
 .wrapper .line:nth-of-type(4) .rect {
-    margin-left: -12vw;
+    margin-left: 0;
 }
 .wrapper .line:nth-of-type(4) .rect:nth-of-type(2) {
     margin-left: 1vw;
 }
 .wrapper .line:nth-of-type(4) img:nth-of-type(2){
-  margin-left: -12vw;
+  margin-left: 0;
 }
 
 /* fifth line */
@@ -482,13 +503,16 @@ header .burger .zag a:nth-of-type(8) h2{
     margin-left: -20vw;
   }
   50%{
-    margin-left: -70vw;
+    margin-left: -110vw;
   }
   100%{
     margin-left: -20vw;
   }
 }
 
+footer{
+  margin-top: 121.5vw;
+}
 footer p{
   font-size: 2vw;
 }
@@ -624,9 +648,6 @@ header .burger .zag a h2{
 
 
 /* second line */
-.wrapper .line:nth-of-type(2) .rect, .wrapper .line:nth-of-type(2) img:nth-of-type(2) {
-    margin-left: 0;
-}
 .wrapper .line:nth-of-type(2) p{
   width: 20vw;
 }
