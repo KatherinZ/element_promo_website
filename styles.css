@@ -1,32 +1,26 @@
 @import "reset.css";
 @font-face {
-  font-family: "Hagrid Bold";
+  font-family: "Hagrid-Bold";
   font-weight: auto;
-  src: url(fonts/hagrid-bold.ttf)
-  format('truetype');
-}
-@font-face {
-  font-family: "Hagrid Medium";
-  font-weight: auto;
-  src: url(fonts/hagrid-medium.ttf)
-  format('truetype');
-}
-@font-face {
-  font-family: "Hagrid Regular";
-  font-weight: auto;
-  src: url(fonts/hagrid-Regular.otf)
+  src: url(../fonts/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
-  font-family: "Proxima Regular";
+  font-family: "Hagrid-Medium";
   font-weight: auto;
-  src: url(fonts/ProximaNova-Regular.ttf)
+  src: url(../fonts/Hagrid-Medium.otf)
+  format('opentype');
+}
+@font-face {
+  font-family: "Proxima-Regular";
+  font-weight: auto;
+  src: url(../fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-weight: auto;
-  src: url(fonts/ProximaNova-Bold.ttf)
+  src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
 }
 
@@ -156,7 +150,7 @@ header .menu img{
 }
 
 .links a{
-  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-family: "Hagrid-Medium",helvetica, sans-serif;
   font-size: 1vw;
   color: #000;
   text-decoration: underline;
@@ -296,7 +290,7 @@ header .burger > img{
 .burger a{
   color: #fff;
   text-decoration: none;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 3.5vw;
   padding-left: 35vw;
 }
@@ -325,7 +319,7 @@ header .links img:hover, .burger > img:hover{
 h1{
   margin-top: 16vw;
   text-align: center;
-  font-family: "Hagrid bold", helvetica, sans-serif;
+  font-family: "Hagrid-Bold", helvetica, sans-serif;
   font-size: 10vw;
   z-index: 10;
 }
@@ -433,7 +427,7 @@ footer{
   top: 21vw;
 }
 footer p{
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-size: 1.2vw;
 }
 footer a img{

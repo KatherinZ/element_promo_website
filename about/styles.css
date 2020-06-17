@@ -1,24 +1,24 @@
 @import "../reset.css";
 @font-face {
-  font-family: "Hagrid Bold";
+  font-family: "Hagrid-Bold";
   font-weight: auto;
   src: url(../fonts/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
-  font-family: "Hagrid Medium";
+  font-family: "Hagrid-Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.ttf)
-  format('truetype');
+  src: url(../fonts/Hagrid-Medium.otf)
+  format('opentype');
 }
 @font-face {
-  font-family: "Proxima Regular";
+  font-family: "Proxima-Regular";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
@@ -54,14 +54,14 @@ header .menu img{
   margin: 0vw;
 }
 header .menu h2{
-  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-family: "Hagrid-Medium",helvetica, sans-serif;
   font-size: 2.5vw;
   margin-left: 3vw;
   color: #fff;
   display: none;
 }
 .links a{
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 1vw;
   color: #fff;
   text-decoration: underline;
@@ -204,7 +204,7 @@ header .burger > img{
 .burger a{
   color: #fff;
   text-decoration: none;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 3.5vw;
   padding-left: 35vw;
 }
@@ -225,7 +225,7 @@ header .links img:hover, .burger > img:hover{
  .names h3{
   position: fixed;
   font-size: 1vw;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   transform: rotate(90deg);
   transform-origin: center;
   color: #fff;
@@ -271,7 +271,7 @@ margin-bottom: -0.3vw;
 }
 .wrapper p{
   color: #fff;
-  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-family: "Proxima-Regular", helvetica, sans-serif;
   font-size: 1.4vw;
 }
 .wrapper h2{
@@ -282,7 +282,7 @@ margin-bottom: -0.3vw;
   margin-top: 9.5vw;
   margin-bottom: 1.5vw;
   color: #fff;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 2vw;
 }
 .wrapper h2:nth-of-type(1){
@@ -329,7 +329,7 @@ width: 51.5vw;
 .wrapper .in_grid:nth-of-type(10) h3{
   position: absolute;
   color: #fff;
-  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-family: "Proxima-Bold", helvetica, sans-serif;
   font-size: 5vw;
   margin-left: 2vw;
   margin-top: 3vw;
@@ -370,7 +370,7 @@ grid-column-end: 3;
 }
 .wrapper .in_grid:nth-of-type(19) ul li{
   color: #fff;
-  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-family: "Proxima-Bold", helvetica, sans-serif;
   font-size: 1.5vw;
   margin-left: 2vw;
   margin-top: 1vw;
@@ -491,7 +491,7 @@ footer{
   margin-bottom: 2vw;
 }
 footer p{
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-size: 1.2vw;
 }
 footer a img{
