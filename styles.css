@@ -2,8 +2,8 @@
 @font-face {
   font-family: "Hagrid Bold";
   font-weight: auto;
-  src: url(fonts/hagrid-bold.otf)
-  format('opentype');
+  src: url(fonts/hagrid-bold.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Hagrid Medium";
