@@ -222,13 +222,19 @@ header .burger > img{
 .burger:nth-child(2){
   padding-left: 5vw;
 }
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+  cursor: pointer;
+}
+
+
 
 .wrapper{
   position: absolute;
   margin-left: 5vw;
-  margin-top: 4vw;
   overflow: hidden;
-
 }
 .wrapper .ground{
   display: flex;
@@ -265,8 +271,9 @@ header .burger > img{
 }
 .svg_anim{
   position: absolute;
-  top: 10vw;
+  top: 12vw;
   left: -10vw;
+  bottom: -10vw;
 }
 svg{
   position: fixed;
@@ -276,20 +283,22 @@ svg{
 }
 
 
+
 footer{
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  color: #000;
+  color: #fff;
   margin-left: 3vw;
   margin-right: 3vw;
   top: 14vw;
   width: 93vw;
   margin-bottom: 2vw;
+  margin-top: 93vw;
 }
 footer p{
-  font-family: "Proxima-Bold";
+  font-family: "Proxima Bold";
   font-size: 1.2vw;
 }
 footer a img{

@@ -452,6 +452,7 @@ header .burger .zag a:nth-of-type(6){
   border: 0.05vw solid #fff;
   width: 37vw;
   height: 30vw;
+  filter: drop-shadow(0 0 1vw rgba(0,0,0,0.5));
 }
 .wrapper .box .name, .sign{
    width: 37vw;
@@ -635,6 +636,8 @@ header .burger .zag a h2{
   grid-template-rows: 7vw 7vw 40vw;
   width: 60vw;
   height: 53.5vw;
+  filter: drop-shadow(0 0 1.5vw rgba(0,0,0,0.5));
+
 }
 .wrapper .box .name, .sign{
    width: 60vw;
@@ -659,10 +662,17 @@ header .burger .zag a h2{
   margin-top: -0.2vw;
   border-bottom: 0.1vw solid #fff;
   border-top: 0.1vw solid #fff;
+  height: 39.4vw;
+
 }
 .box .palette p{
-  font-size: 4vw;
-  margin: 3vw;
+  font-size: 3.5vw;
+  margin: 2.5vw;
+  width: 53vw;
+}
+.box .palette p span{
+  height: 5vw;
+  padding-top: 1.5vw;
 }
 .box .sign img{
   height: 3.5vw;
@@ -706,7 +716,7 @@ header .burger .zag a h2{
 
 
 footer{
-  margin-top: 250vw;
+  margin-top: 210vw;
   margin-bottom: 2vw;
 }
 footer p{

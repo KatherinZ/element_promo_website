@@ -244,7 +244,9 @@ svg path {
 .svg_anim path{
  -webkit-transition: none;
 }
-
+.wrapper{
+  overflow: hidden;
+}
 .wrapper h2{
   font-family: "Proxima Bold", helvetica, sans-serif;
   font-size: 22vw;
@@ -280,21 +282,21 @@ svg path {
   position: absolute;
   background-color: #000;
   width: 130vw;
-  height: 1.5vw;
+  height: 0.8vw;
 }
 .wrapper .diagonal:nth-of-type(2){
   transform-origin: center;
   transform: rotate(-45deg);
   width: 100vw;
-  left: -4vw;
-  top: 20vw;
+  left: -5vw;
+  top: 21.5vw;
 }
 .wrapper .diagonal:nth-of-type(4){
   transform-origin: center;
   transform: rotate(75deg);
   width: 125vw;
   top: 63vw;
-  left: -50vw;
+  left: -51vw;
 }
 .wrapper .diagonal:nth-of-type(6){
   transform-origin: center;
@@ -306,15 +308,15 @@ svg path {
 .wrapper .diagonal:nth-of-type(7){
   transform-origin: center;
   transform: rotate(33deg);
-  width: 90vw;
-  top: 57vw;
-  left: 26vw;
+  width: 91vw;
+  top: 58.5vw;
+  left: 25.8vw;
 }
 .wrapper .diagonal:nth-of-type(9){
   transform-origin: center;
   transform: rotate(-70deg);
   width: 70vw;
-  top: 90vw;
+  top: 92vw;
   left: 25vw;
 }
 .wrapper .diagonal:last-child{
@@ -322,7 +324,7 @@ svg path {
   transform: rotate(-6deg);
   width: 25vw;
   top: 108vw;
-  left: -1vw;
+  left: -2vw;
 }
 .wrapper img{
   position: absolute;
@@ -333,23 +335,27 @@ svg path {
   top: 20vw;
   width: 13.5vw;
   height: auto;
+  z-index: -1;
+
 }
 .wrapper img:nth-of-type(2){
-  top: 33.5vw;
-  left: 11vw;
+  top: 34vw;
+  left: 10vw;
   width: 50vw;
   height: auto;
 }
 .wrapper img:nth-of-type(3){
-  top: 35vw;
-  left: 61vw;
-  width: 40vw;
+  top: 33.3vw;
+  left: 60vw;
+  width: 45vw;
   height: auto;
 }
 .wrapper img:nth-of-type(4){
-  top: 71vw;
+  top: 70vw;
+  left: -0.5vw;
   width: 24vw;
   height: auto;
+  z-index: -2;
 }
 
 
@@ -364,7 +370,7 @@ footer{
   top: 3vw;
   margin-bottom: 0;
   background-color: #fff;
-  padding-bottom: 2.5vw;
+  padding-bottom: 3.5vw;
 }
 footer p{
   font-family: "Proxima Bold";
@@ -634,7 +640,7 @@ left: 3vw;
 }
 .wrapper .info:first-child{
   margin-left: 15vw;
-  margin-top: -5vw;
+  margin-top: -2vw;
 }
 .wrapper .info:nth-of-type(3){
   margin-left: 15vw;
@@ -652,20 +658,20 @@ left: 3vw;
 .wrapper img:nth-of-type(1){
   top: 28vw;
   width: 15vw;
-  height: auto;
 }
 .wrapper img:nth-of-type(2){
   top: 154vw;
   left: 59vw;
   transform: rotate(-235deg);
   width: 70vw;
+
 }
 .wrapper img:nth-of-type(3){
-  transform: rotate(-160deg);
-  top: 98vw;
-  left: 97vw;
+  transform: rotate(-167deg);
+  top: 75.3vw;
+  left: 94vw;
   width: 60vw;
-  height: auto;
+  height: 100vw;
 }
 .wrapper img:nth-of-type(4){
   transform: rotate(-196deg);
