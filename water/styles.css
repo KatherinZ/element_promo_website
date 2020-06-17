@@ -284,27 +284,24 @@ header .links img:hover, .burger > img:hover{
 }
 
 footer{
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-bottom: 1.5vw;
+  bottom: 1.5vw;
 }
 footer p{
-  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-family: "Proxima Bold";
   font-size: 1.2vw;
-  color: #000;
 }
-footer .social a img{
-  height: 3vw;
-  width: auto;
-  margin-left: 0.3vw;
+footer a img{
+  max-height: 3vw;
+  margin-left: 0.6vw;
 }
-footer .social{
-  margin-left: 73vw;
-}
+
 
 /* адаптив */
 

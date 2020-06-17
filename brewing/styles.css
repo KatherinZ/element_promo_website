@@ -330,6 +330,12 @@ header .burger > img{
   padding-left: 5vw;
 }
 
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+  cursor: pointer;
+}
 /* ЭЛЕМЕНТЫ */
 .square_1, .square_x{
   border: 0.2vw solid #fff;
@@ -341,9 +347,6 @@ header .burger > img{
 }
 .square_x{
   position: absolute;
-  margin-top: 80vw;
-  margin-left: 40vw;
-
 }
 .square_x p{
 margin-top: 4vw;
@@ -570,20 +573,23 @@ svg path {
 
 footer{
   position: relative;
-  top: 15vw;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #fff;
   margin-left: 3vw;
   margin-right: 3vw;
-  width: 94vw;
+  top: 14vw;
+  width: 93vw;
+  margin-bottom: 2vw;
 }
 footer p{
-  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-family: "Proxima Bold";
   font-size: 1.2vw;
 }
 footer a img{
   max-height: 3vw;
+  margin-left: 0.6vw;
 }
 
 
@@ -768,8 +774,8 @@ header .burger .zag a h2{
 
 .square_1, .square_x{
   border: 0.1vw solid #fff;
-  width: 18vw;
-  height: 18vw;
+  width: 21vw;
+  height: 21vw;
 
 }
 
@@ -781,25 +787,117 @@ a .square_x{
   text-align: center;
 }
 
+a .square_x p {
+  margin-top: 6vw;
+}
 .square_1 h2{
-  margin-top: 5vw;
-  font-size: 5vw;
+  margin-top: 3.5vw;
+  font-size: 6vw;
 }
 .square_1 p{
-  font-size: 1.2vw;
+  font-size: 2vw;
   font-weight: 400;
   margin-left: 1vw;
 }
-.numbers{
-  margin-top: 0.8vw;
-}
 .numbers p:last-child{
-  font-size: 2.5vw;
+  font-size: 3vw;
+  margin: 1vw;
 }
 .square_1 h2 + p{
-  font-size: 2.5vw;
+  font-size: 3vw;
+  margin-top: 0.5vw;
+}
+
+
+.square_2{
+  width: 55vw;
+  height: 35vw;
+}
+.square_2 p:first-child{
+  font-size: 5vw;
+  margin: 1.5vw;
+}
+.square_2 p:last-child{
+  width: 45vw;
+  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-size: 3vw;
+  margin-top: 1vw;
+  margin-left: 7vw;
+  padding-right: 1vw;
+}
+.close{
+  position: absolute;
+  height: 3vw;
+  width: auto;
+  top: 1vw;
+  left: 50vw;
+}
+.close:hover{
+  cursor: pointer;
+}
+ svg {
+  width: 700%;
+  height: auto;
+  margin-top: 1.5vw;
+  margin-left: 1.5vw;
+}
+svg path {
+  stroke-width: 2;
+}
+.svg_anim {
+  max-width: 9vw;
+}
+/* svg size & position */
+.all_elements .square_1:nth-of-type(1) svg{
+  width: 600%;
+}
+.all_elements .square_1:nth-of-type(2) svg{
+  width: 400%;
+}
+.all_elements .square_1:nth-of-type(4) svg{
+  width: 450%;
+}
+.all_elements .square_1:nth-of-type(3) svg,
+.all_elements .square_1:nth-of-type(5) svg{
+  margin-left: -1vw;
+  margin-top: -1vw;
+}
+.all_elements .square_1:nth-of-type(6) svg{
+  width: 400%;
 
 }
+.all_elements .square_1:nth-of-type(7) svg{
+  width: 450%;
+  height: auto;
+  margin-left: 2.2vw;
+  margin-top: -1.3vw;
+}
+.all_elements .square_1:nth-of-type(8) svg,
+.all_elements .square_1:nth-of-type(9) svg{
+  width: 750%;
+  top: -1vw;
+}
+.all_elements .square_1:nth-of-type(10) svg{
+  margin-top: -1vw;
+  margin-left: 0.7vw;
+}
+.all_elements .square_1:nth-of-type(11) svg{
+  width: 750%;
+  margin-left: -1vw;
+
+}
+.all_elements .square_1:nth-of-type(12) svg{
+  margin-left: 1vw;
+}
+.all_elements .square_1:nth-of-type(13) svg{
+  margin-left: 1.4vw;
+  margin-top: -1.5vw;
+}
+.all_elements .square_1:nth-of-type(14) svg{
+  width: 400%;
+  height: auto;
+}
+
 
 
 footer{

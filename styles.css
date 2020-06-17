@@ -422,12 +422,14 @@ h1:hover{
 
 footer{
   position: relative;
-  top: 21vw;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
+  bottom: 1.5vw;
+  top: 21vw;
 }
 footer p{
   font-family: "Proxima Bold";
@@ -435,8 +437,8 @@ footer p{
 }
 footer a img{
   max-height: 3vw;
+  margin-left: 0.6vw;
 }
-
 /* адаптив */
 
 @media (max-width: 1024px) {

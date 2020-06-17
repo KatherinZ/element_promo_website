@@ -224,6 +224,13 @@ header .burger .zag a:nth-of-type(8) h2{
   display: none;
 }
 
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+  cursor: pointer;
+}
+
 svg {
  width: 200%;
  height: 200%;
@@ -349,21 +356,23 @@ svg path {
 footer{
   position: relative;
   display: flex;
-  top: 2.5vw;
   justify-content: space-between;
+  align-items: baseline;
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
+  top: 3vw;
+  margin-bottom: 0;
   background-color: #fff;
   padding-bottom: 2.5vw;
 }
 footer p{
-  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-family: "Proxima Bold";
   font-size: 1.2vw;
-  color: #000;
 }
 footer a img{
   max-height: 3vw;
+  margin-left: 0.6vw;
 }
 
 

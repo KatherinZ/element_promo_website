@@ -10,7 +10,7 @@ document.getElementsByClassName('line').onclick = function(){
    document.getElementsByClassName('line').style.animationPlayState = 'paused'
  }
 
- let arr = [...document.querySelectorAll('.square_1')].map(function(el) {
+ let arr = [...document.querySelectorAll('.square_1, .square_x')].map(function(el) {
 
  // рандом через anime
 

@@ -2,25 +2,25 @@
 @font-face {
   font-family: "Hagrid Bold";
   font-weight: auto;
-  src: url(../fonts/hagrid-bold.otf)
-  format('opentype');
+  src: url(/fonts/hagrid-bold.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.ttf)
+  src: url(/fonts/hagrid-medium.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Regular.ttf)
+  src: url(/fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima Bold";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Bold.ttf)
+  src: url(/fonts/ProximaNova-Bold.ttf)
   format('truetype');
 }
 
@@ -350,12 +350,6 @@ header .links img:hover, .burger > img:hover{
   flex-direction: column;
 }
 
-.price h2 span:last-child{
-  padding-top: 1vw;
-  font-size: 1.4vw;
-
-}
-
 
 .price h2 span:first-child{
     font-family: "Hagrid Medium", helvetica, sans-serif;
@@ -363,6 +357,8 @@ header .links img:hover, .burger > img:hover{
 }
 .price h2 span:last-child{
     font-family: "Proxima Bold", helvetica, sans-serif;
+    padding-top: 1vw;
+    font-size: 1.4vw;
 }
 .wrapper .block:nth-of-type(2){
   margin-left: 4.5vw;
@@ -392,10 +388,11 @@ footer{
   position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 2vw;
+  top: 1.5vw;
 }
 footer p{
   font-family: "Proxima Bold";
@@ -403,6 +400,7 @@ footer p{
 }
 footer a img{
   max-height: 3vw;
+  margin-left: 0.6vw;
 }
 
 /* адаптив */
@@ -637,12 +635,11 @@ header .burger .zag a h2{
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  margin-left: 10vw;
+  margin-left: 6vw;
 }
 .wrapper .block{
   position: relative;
   height: 60vw;
-  margin-left: 0;
 }
 .wrapper .block:nth-of-type(14){
   margin-left: -2vw;
@@ -657,6 +654,7 @@ header .burger .zag a h2{
 .single img,
 .alternate img{
   height: 50vw;
+  margin-right: 0;
 }
 .single div,
 .alternate div{
@@ -665,9 +663,9 @@ header .burger .zag a h2{
 }
 .wrapper .block .price h2{
   margin-top: -30vw;
-  margin-left: 12vw;
-  text-align: center;
-  max-width: 15vw;
+  margin-left: 24vw;
+  width: 20vw;
+
 }
 .price h2 span:first-child{
     font-family: "Hagrid Medium", helvetica, sans-serif;
@@ -675,7 +673,7 @@ header .burger .zag a h2{
 }
 .price h2 span:last-child{
     font-family: "Proxima Bold", helvetica, sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 @keyframes cube {

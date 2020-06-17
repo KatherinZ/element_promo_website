@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="anime.min.js"></script>
+    <script src="ScrollMagic.min.js"></script>
     <link rel="shortcut icon" type="image/svg" href="../img/logo.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>О НАС</title>
@@ -52,9 +54,12 @@
       </div>
     </header>
     <div class="names">
-       <h3>описание</h3>
-       <h3>пространство</h3>
-       <h3>издание</h3>
+       <h3 id="zag_1">описание</h3>
+       <h3 id="zag_2">пространство</h3>
+       <div class="pin1" id="pin1">
+
+       </div>
+       <h3 id="zag_3">издание</h3>
     </div>
       <div class="wrapper">
         <div class="in_grid">
@@ -165,7 +170,7 @@
         <div class="in_grid"></div>
         <div class="in_grid"></div>
         <div class="in_grid">
-            <p>Анимированная презентация книги о&nbsp;пути кофейного зерна от&nbsp;выращивания до&nbsp;заваривания позволит вам узнать больше о&nbsp;кофейной индустрии</p>
+            <p>Анимированная презентация книги о&nbsp;пути кофейного зерна <span>от&nbsp;выращивания до&nbsp;заваривания</span> позволит вам узнать больше о&nbsp;кофейной индустрии</p>
         </div>
         <div class="in_grid"></div>
         <div class="in_grid"></div>
@@ -192,7 +197,9 @@
         <a href="https://vk.com/kthrnginger"><img src="../img/vk_white.svg" alt="vk"></a>
       </div>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
   <script src="main.js"></script>
+
   </body>
 </html>
