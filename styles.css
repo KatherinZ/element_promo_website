@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(fonts/hagrid-medium.otf)
-  format('opentype');
+  src: url(fonts/hagrid-medium.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Hagrid Regular";
@@ -314,7 +314,11 @@ header .burger .zag a:nth-of-type(8) h2{
 .burger .lines .rect:nth-of-type(8){
   display: none;
 }
-
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+}
 
 
 h1{
@@ -323,6 +327,9 @@ h1{
   font-family: "Hagrid bold";
   font-size: 10vw;
   z-index: 10;
+}
+h1:hover{
+  cursor: pointer;
 }
 .wrapper{
   position: absolute;
@@ -415,7 +422,7 @@ h1{
 
 footer{
   position: relative;
-  top: 16vw;
+  top: 21vw;
   display: flex;
   justify-content: space-between;
   color: #000;
@@ -492,7 +499,6 @@ header .burger .zag a:nth-of-type(6){
   margin-top: 79vw;
 }
 
-
 h1{
   font-size: 10vw;
   margin-top: 66vw;
@@ -501,7 +507,9 @@ h1{
 .wrapper{
   margin-top: -100vw;
 }
-
+footer{
+  top: 16vw;
+}
 footer p{
   font-size: 2vw;
 }
@@ -509,42 +517,42 @@ footer p{
   header .burger{
     height: 568px;
   }
-  header .menu img{
-   width: 2vw;
-  }
   header .links a:first-child,
   header .links a:nth-of-type(2){
   display: none;
   }
- header .menu h2{
-   font-size: 4vw;
-   margin-left: 38vw;
-   text-align: center;
- }
- header .menu img:first-child{
-   width: 4vw;
- }
- header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
- }
-
- header .burger .zag a:nth-of-type(7) h2,
- header .burger .zag a:nth-of-type(8) h2{
-   display: block;
- }
- .burger .lines .rect:nth-of-type(7),
- .burger .lines .rect:nth-of-type(8){
-   display: block;
- }
-
- header .burger > img{
-   width: 4vw;
-   height: auto;
-   margin-left: -2vw;
+  header .menu h2{
+    display: block;
+    font-size: 4vw;
+    margin-left: 30vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
+  }
+  header .links a:last-child img{
+   width: 5.6vw;
    margin-top: 4vw;
- }
+   margin-right: 4vw;
+  }
+
+  header .burger .zag a:nth-of-type(7) h2,
+  header .burger .zag a:nth-of-type(8) h2{
+   display: block;
+  }
+  .burger .lines .rect:nth-of-type(7),
+  .burger .lines .rect:nth-of-type(8){
+   display: block;
+  }
+
+  header .burger > img{
+   width: 6vw;
+   height: auto;
+   margin-top: 7vw;
+   margin-left: 2vw;
+  }
  .burger .lines .rect{
    background-color: #fff;
    width: 80vw;
@@ -619,7 +627,9 @@ h1{
 .wrapper{
   margin-top: -130vw;
 }
-
+footer{
+  top: 6vw;
+}
 footer p{
  font-size: 2vw;
  margin-top: 4vw;

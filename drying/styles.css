@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.otf)
-  format('opentype');
+  src: url(../fonts/hagrid-medium.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
@@ -430,7 +430,7 @@ header .burger .zag a:nth-of-type(8) h2{
   width: 57vw;
 }
 .wrapper .line:nth-of-type(5) p{
-  width: 25vw;
+  width: 40vw;
 }
 
 /* first line */
@@ -438,7 +438,7 @@ header .burger .zag a:nth-of-type(8) h2{
     margin-left: -2.5vw;
 }
 .wrapper .line:nth-of-type(1) .rect:nth-of-type(2) {
-    margin-left: 19vw;
+    margin-left: 21vw;
 }
 .wrapper .line:nth-of-type(1) img:nth-of-type(2){
   margin-left: -2.5vw;
@@ -477,13 +477,13 @@ header .burger .zag a:nth-of-type(8) h2{
 
 /* fifth line */
 .wrapper .line:nth-of-type(5) .rect {
-    margin-left: -12vw;
-}
-.wrapper .line:nth-of-type(5) .rect:nth-of-type(2) {
     margin-left: 1vw;
 }
+.wrapper .line:nth-of-type(5) .rect:nth-of-type(2) {
+    margin-left: 4vw;
+}
 .wrapper .line:nth-of-type(5) img:nth-of-type(2){
-  margin-left: -12vw;
+  margin-left: 1.5vw;
 }
 
 
@@ -528,7 +528,7 @@ footer p{
   }
   header .menu h2{
     font-size: 4vw;
-    margin-left: 24vw;
+    margin-left: 22vw;
     text-align: center;
     margin-top: 5vw;
   }
@@ -624,56 +624,67 @@ header .burger .zag a h2{
 
 
 .wrapper .line{
-  height: 34vw;
+  height: 40vw;
 }
 .wrapper .line p{
-  font-size: 2.3vw;
+  font-size: 4vw;
   padding: 3vw;
 }
 .wrapper .line img{
-  height: 34vw;
+  height: 40vw;
   width: auto;
 }
 .wrapper .line .rect{
-  height: 34vw;
+  height: 40vw;
 }
 
-/* first line */
-.wrapper .line:nth-of-type(1) .rect, .wrapper .line:nth-of-type(1) img:nth-of-type(2) {
-    margin-left: 0;
-}
+
 .wrapper .line:first-child p{
-  width: 30vw;
+  width: 80vw;
+}
+.wrapper .line:nth-of-type(2) p{
+  width: 50vw;
+}
+.wrapper .line:nth-of-type(3) p{
+  width: 75vw;
+}
+.wrapper .line:nth-of-type(4) p span{
+  display: none;
+}
+.wrapper .line:nth-of-type(4) p{
+  width: 70vw;
+}
+.wrapper .line:nth-of-type(5) p{
+  width: 90vw;
 }
 
 
-/* second line */
-.wrapper .line:nth-of-type(2) p{
-  width: 20vw;
+.wrapper .line .rect, .wrapper .line img:nth-of-type(2) {
+    margin-left: 0vw;
+}
+/* first line */
+.wrapper .line:nth-of-type(1) .rect:nth-of-type(2) {
+    margin-left: 20vw;
+}
+.wrapper .line:nth-of-type(1) img:nth-of-type(2){
+  margin-left: 0vw;
+}
+.wrapper .line:nth-of-type(1) img:nth-of-type(1){
+  margin-left: -3vw;
 }
 
 /* third line */
-.wrapper .line:nth-of-type(3) .rect, .wrapper .line:nth-of-type(3) img:nth-of-type(2) {
-    margin-left: 0;
-}
-.wrapper .line:nth-of-type(3) p{
-  width: 36vw;
+.wrapper .line:nth-of-type(3) .rect:nth-of-type(2) {
+    margin-left: 1vw;
 }
 
 /* fourth line */
-.wrapper .line:nth-of-type(4) .rect, .wrapper .line:nth-of-type(4) img:nth-of-type(2) {
-    margin-left: 0;
+.wrapper .line:nth-of-type(4) .rect:nth-of-type(2) {
+    margin-left: 1vw;
 }
-.wrapper .line:nth-of-type(4) p{
-  width: 50vw;
-}
-
 /* fifth line */
-.wrapper .line:nth-of-type(5) .rect, .wrapper .line:nth-of-type(5) img:nth-of-type(2) {
-    margin-left: 0;
-}
-.wrapper .line:nth-of-type(5) p{
-  width: 35vw;
+.wrapper .line:nth-of-type(5) .rect:nth-of-type(2) {
+    margin-left: 4vw;
 }
 
 @keyframes move-left {
@@ -689,17 +700,17 @@ header .burger .zag a h2{
 }
 @keyframes move-right {
   0%{
-    margin-left: -100vw;
+    margin-left: -50vw;
   }
   50%{
-    margin-left: -180vw;
+    margin-left: -250vw;
   }
   100%{
-    margin-left: -100vw;
+    margin-left: -50vw;
   }
 }
 footer{
-  margin-top: 176vw;
+  margin-top: 210vw;
 }
 footer p{
  font-size: 2.5vw;

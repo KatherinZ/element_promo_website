@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.otf)
-  format('opentype');
+  src: url(../fonts/hagrid-medium.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
@@ -277,11 +277,13 @@ header .burger > img{
   color: #fff;
   font-size: 1vw;
   font-family: "Proxima Regular", helvetica, sans-serif;
-  margin: 2vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
 }
 .box .palette p span{
   display: flex;
   flex-direction: column;
+  height: 1.3vw;
 }
 .box .palette p{
 z-index: 0;

@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.otf)
-  format('opentype');
+  src: url(../fonts/hagrid-medium.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
@@ -219,6 +219,12 @@ header .burger .zag a:nth-of-type(8) h2{
 .burger .lines .rect:nth-of-type(8){
   display: none;
 }
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+  cursor: pointer;
+}
 
 
 
@@ -227,6 +233,7 @@ header .burger .zag a:nth-of-type(8) h2{
   grid-template-columns: 1fr 9fr 1fr 9fr 1fr 9fr 1fr 9fr;
   margin-top: 3vw;
   margin-bottom: 3vw;
+  overflow: hidden;
 }
 .wrapper .column{
   display: flex;
@@ -291,7 +298,7 @@ footer p{
   color: #000;
 }
 footer .social a img{
-  height: 1.8vw;
+  height: 3vw;
   width: auto;
   margin-left: 0.3vw;
 }
@@ -408,31 +415,32 @@ header .burger .zag a:nth-of-type(6){
 footer p{
   font-size: 1.5vw;
 }
+
 }
 @media (max-width: 320px) {
   header .burger{
     height: 568px;
   }
-  header .menu img{
-   width: 2vw;
-  }
   header .links a:first-child,
   header .links a:nth-of-type(2){
   display: none;
   }
- header .menu h2{
-   font-size: 4vw;
-   margin-left: 38vw;
-   text-align: center;
- }
- header .menu img:first-child{
-   width: 4vw;
- }
- header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
- }
+  header .menu h2{
+    display: block;
+    font-size: 4vw;
+    margin-left: 30vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
+  }
+  header .links a:last-child img{
+   width: 5.6vw;
+   margin-top: 4vw;
+   margin-right: 4vw;
+  }
 
  header .burger .zag a:nth-of-type(7) h2,
  header .burger .zag a:nth-of-type(8) h2{
@@ -444,10 +452,10 @@ footer p{
  }
 
  header .burger > img{
-   width: 4vw;
+   width: 6vw;
    height: auto;
-   margin-left: -2vw;
-   margin-top: 4vw;
+   margin-top: 7vw;
+   margin-left: 2vw;
  }
  .burger .lines .rect{
    background-color: #fff;
@@ -513,7 +521,9 @@ header .burger .zag a h2{
 .burger .beans img{
   width: 7vw;
 }
-
+.horizon{
+  display: none;
+}
 .wrapper{
   display: flex;
   flex-direction: column;
@@ -529,40 +539,48 @@ header .burger .zag a h2{
   overflow-y: scroll;
 }
 .wrapper .side{
+  position: relative;
   display: flex;
   flex-direction: column;
   border: 0.1vw solid #000;
-  width: 10vw;
+  width: 20vw;
   margin-left: -12vw;
   margin-top: -1vw;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
-
+}
+.wrapper .side:first-child{
+  height: 105vw;
+}
+.wrapper .side:nth-of-type(3){
+  height: 80vw;
 }
 .wrapper h2{
-  font-size: 2.5vw;
+  position: sticky;
+  font-size: 4vw;
   margin-bottom: 5vw;
   margin-right: 3vw;
 }
 .wrapper p{
-  font-size: 2vw;
+  font-size: 4vw;
   margin-top: 5vw;
-  width: 50vw;
+  padding-bottom: 2vw;
+  width: 78vw;
 }
-.column img{
-  width: 4vw;
-  padding-left: 4vw;
-  padding-top: 1vw;
+.column .side img{
+  width: 6vw;
+  margin-left: 12vw;
+  margin-top: 3vw;
   padding-bottom: 1vw;
 }
-footer .social a img{
-  height: 2.5vw;
+footer{
+  width: 95vw;
 }
 footer p{
- font-size: 2vw;
+ font-size: 2.5vw;
  margin-top: 2.8vw;
 }
 footer .social{
-  margin-left: 64vw;
+  margin-left: 60vw;
 }
 }

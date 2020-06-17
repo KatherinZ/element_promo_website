@@ -25,7 +25,6 @@ let arr = [...document.querySelectorAll('.block_1')].map(function(el) {
     document.getElementById('wrapper').style.filter = 'blur(10px)'
   }
 
-  el.onmouseover = el.style.zIndex = '10'
 })
 
 

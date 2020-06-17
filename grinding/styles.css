@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.otf)
-  format('opentype');
+  src: url(../fonts/hagrid-medium.ttf)
+  format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
@@ -469,27 +469,26 @@ footer p{
   header .burger{
     height: 568px;
   }
-  header .menu img{
-   width: 2vw;
-  }
   header .links a:first-child,
   header .links a:nth-of-type(2){
   display: none;
   }
- header .menu h2{
-   font-size: 4vw;
-   margin-left: 38vw;
-   text-align: center;
- }
- header .menu img:first-child{
-   width: 4vw;
+  header .menu h2{
+    display: block;
+    font-size: 4vw;
+    margin-left: 27vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+ .menu img:first-child{
+   width: 6vw;
+   margin: 4vw;
  }
  header .links a:last-child img{
-   width: 3.5vw;
-   height: auto;
-   margin-right: 1vw;
+   width: 5.6vw;
+   margin-top: 4vw;
+   margin-right: 4vw;
  }
-
  header .burger .zag a:nth-of-type(7) h2,
  header .burger .zag a:nth-of-type(8) h2{
    display: block;
@@ -500,10 +499,10 @@ footer p{
  }
 
  header .burger > img{
-   width: 4vw;
+   width: 6vw;
    height: auto;
-   margin-left: -2vw;
-   margin-top: 4vw;
+   margin-top: 7vw;
+   margin-left: 2vw;
  }
  .burger .lines .rect{
    background-color: #fff;
@@ -616,16 +615,17 @@ header .burger .zag a h2{
 }
 .wrapper p{
   font-size: 4vw;
-  width: 55vw;
+  width: 60vw;
   line-height: 0.9;
 }
 
 .wrapper .info:nth-of-type(5) p{
-  width: 50vw;
+  width: 55vw;
 left: 3vw;
 }
 .wrapper .info:first-child{
   margin-left: 15vw;
+  margin-top: -5vw;
 }
 .wrapper .info:nth-of-type(3){
   margin-left: 15vw;
@@ -633,7 +633,7 @@ left: 3vw;
 }
 .wrapper .info:nth-of-type(5){
   margin-left: 10vw;
-  margin-top: 23vw;
+  margin-top: 30vw;
 }
 .wrapper .info:nth-of-type(8){
   margin-left: 15vw;
