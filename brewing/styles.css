@@ -1,30 +1,24 @@
 @import "../reset.css";
 @font-face {
-  font-family: "Hagrid Bold";
+  font-family: "Hagrid-Bold";
   font-weight: auto;
   src: url(../fonts/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
-  font-family: "Hagrid Medium";
+  font-family: "Hagrid-Medium";
   font-weight: auto;
   src: url(../fonts/hagrid-medium.ttf)
   format('truetype');
 }
 @font-face {
-  font-family: "Hagrid Regular";
+  font-family: "Hagrid-Regular";
   font-weight: auto;
   src: url(../fonts/hagrid-Regular.otf)
   format('opentype');
 }
 @font-face {
-  font-family: "Proxima Regular";
-  font-weight: auto;
-  src: url(../fonts/ProximaNova-Regular.ttf)
-  format('truetype');
-}
-@font-face {
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
@@ -154,7 +148,7 @@ header .links{
   margin-right: 5vw;
 }
 header .menu h2{
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 2.5vw;
   margin-left: 3vw;
 }
@@ -173,7 +167,7 @@ header .menu img{
   margin: 0vw;
 }
 .links a{
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 1vw;
   color: #fff;
   text-decoration: underline;
@@ -318,7 +312,7 @@ header .burger > img{
 .burger a{
   color: #fff;
   text-decoration: none;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 3.5vw;
   padding-left: 35vw;
 }
@@ -355,7 +349,7 @@ margin-top: 4vw;
 a .square_x{
   color: #fff;
   text-decoration: none;
-  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-family: "Proxima-Bold", helvetica, sans-serif;
   font-size: 1.2vw;
   text-align: center;
 }
@@ -422,7 +416,7 @@ a .square_x{
   font-family: "Futura Regular", sans-serif;
 }
 .all_elements .square_1:nth-of-type(4) h2{
-  font-family: "Hagrid Regular", sans-serif;
+  font-family: "Hagrid-Regular", sans-serif;
 }
 .all_elements .square_1:nth-of-type(5) h2{
   font-family: "AkzidenzGroteskPro-Regular", helvetica, sans-serif;
@@ -584,7 +578,7 @@ footer{
   margin-bottom: 2vw;
 }
 footer p{
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-size: 1.2vw;
 }
 footer a img{
@@ -782,7 +776,7 @@ header .burger .zag a h2{
 a .square_x{
   color: #fff;
   text-decoration: none;
-  font-family: "Proxima Bold", helvetica, sans-serif;
+  font-family: "Proxima-Bold", helvetica, sans-serif;
   font-size: 3vw;
   text-align: center;
 }
