@@ -8,8 +8,8 @@
 @font-face {
   font-family: "Hagrid-Medium";
   font-weight: auto;
-  src: url(../fonts/hagrid-medium.ttf)
-  format('truetype');
+  src: url(../fonts/hagrid-medium.woff)
+  format('woff');
 }
 @font-face {
   font-family: "Proxima-Regular";
