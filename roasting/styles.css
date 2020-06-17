@@ -474,7 +474,11 @@ header .burger .zag a:nth-of-type(6){
 .box .palette p{
   font-size: 2vw;
   margin: 3vw;
-  width: 30vw;
+  width: 33vw;
+}
+.box .palette p span{
+    height: 3vw;
+
 }
 .box .sign img{
   height: 2vw;
