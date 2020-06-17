@@ -2,25 +2,25 @@
 @font-face {
   font-family: "Hagrid Bold";
   font-weight: auto;
-  src: url(/fonts/hagrid-bold.ttf)
+  src: url(../fonts/hagrid-bold.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Hagrid Medium";
   font-weight: auto;
-  src: url(/fonts/hagrid-medium.ttf)
+  src: url(../fonts/hagrid-medium.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima Regular";
   font-weight: auto;
-  src: url(/fonts/ProximaNova-Regular.ttf)
+  src: url(../fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima Bold";
   font-weight: auto;
-  src: url(/fonts/ProximaNova-Bold.ttf)
+  src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
 }
 
