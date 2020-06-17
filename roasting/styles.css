@@ -1,24 +1,24 @@
 @import "../reset.css";
 @font-face {
-  font-family: "Hagrid Bold";
+  font-family: "Hagrid-Bold";
   font-weight: auto;
   src: url(../fonts/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
-  font-family: "Hagrid Medium";
+  font-family: "Hagrid-Medium";
   font-weight: auto;
   src: url(../fonts/hagrid-medium.ttf)
   format('truetype');
 }
 @font-face {
-  font-family: "Proxima Regular";
+  font-family: "Proxima-Regular";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-weight: auto;
   src: url(../fonts/ProximaNova-Bold.ttf)
   format('truetype');
@@ -42,7 +42,7 @@ header .links{
   margin-right: 5vw;
 }
 header .menu h2{
-  font-family: "Hagrid Medium",helvetica, sans-serif;
+  font-family: "Hagrid-Medium",helvetica, sans-serif;
   font-size: 2.5vw;
   margin-left: 3vw;
   color: #fff;
@@ -62,7 +62,7 @@ header .menu img{
   margin: 0vw;
 }
 .links a{
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 1vw;
   color: #fff;
   text-decoration: underline;
@@ -207,7 +207,7 @@ header .burger > img{
 .burger a{
   color: #fff;
   text-decoration: none;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   font-size: 3.5vw;
   padding-left: 35vw;
 }
@@ -230,6 +230,7 @@ header .burger > img{
   grid-template-rows: 3vw 3vw 10vw;
   border: 0.1vw solid #fff;
   width: 20vw;
+  filter: drop-shadow(0 0 3vw rgba(0,0,0,0.5));
 }
 .wrapper .box .name, .sign{
    background-color: #000;
@@ -244,7 +245,7 @@ header .burger > img{
 .box .name h3{
   color: #fff;
   font-size: 1vw;
-  font-family: "Hagrid Medium", helvetica, sans-serif;
+  font-family: "Hagrid-Medium", helvetica, sans-serif;
   margin: 1vw;
 }
 .box .sign img{
@@ -276,7 +277,7 @@ header .burger > img{
   position: absolute;
   color: #fff;
   font-size: 1vw;
-  font-family: "Proxima Regular", helvetica, sans-serif;
+  font-family: "Proxima-Regular", helvetica, sans-serif;
   margin-left: 2vw;
   margin-top: 1vw;
 }
@@ -363,7 +364,7 @@ footer{
   bottom: 2vw;
 }
 footer p{
-  font-family: "Proxima Bold";
+  font-family: "Proxima-Bold";
   font-size: 1.2vw;
 }
 footer a img{
