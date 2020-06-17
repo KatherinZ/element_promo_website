@@ -2,119 +2,119 @@
 @font-face {
   font-family: "Hagrid-Bold";
   font-weight: auto;
-  src: url(../fonts/hagrid-bold.otf)
+  src: url(../font/hagrid-bold.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Hagrid-Medium";
   font-weight: auto;
-  src: url(../fonts/Hagrid-Medium.otf)
+  src: url(../font/Hagrid-Medium.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Proxima-Regular";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Regular.ttf)
+  src: url(../font/ProximaNova-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Proxima-Bold";
   font-weight: auto;
-  src: url(../fonts/ProximaNova-Bold.ttf)
+  src: url(../font/ProximaNova-Bold.ttf)
   format('truetype');
 }
 
 
 
-/* additional fonts */
+/* additional font */
 @font-face {
   font-family: "Gilroy-SemiBold";
   font-weight: auto;
-  src: url(fonts/Gilroy-SemiBold.ttf)
+  src: url(font/Gilroy-SemiBold.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Gilroy-Medium";
   font-weight: auto;
-  src: url(fonts/Gilroy-Medium.ttf)
+  src: url(font/Gilroy-Medium.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Gilroy-Regular";
   font-weight: auto;
-  src: url(fonts/Gilroy-Regular.ttf)
+  src: url(font/Gilroy-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "AkzidenzGrotesk";
   font-weight: auto;
-  src: url(fonts/AkzidenzGroteskPro-Regular.ttf)
+  src: url(font/AkzidenzGroteskPro-Regular.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Gotham";
   font-weight: auto;
-  src: url(fonts/GothaProReg.otf)
+  src: url(font/GothaProReg.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Oldbaskerville";
   font-weight: auto;
-  src: url(fonts/7092.otf)
+  src: url(font/7092.otf)
   format('opentype');
 }
 @font-face {
   font-family: "ScotchModern-Bold";
   font-weight: auto;
-  src: url(fonts/ScotchModern-Bold.otf)
+  src: url(font/ScotchModern-Bold.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Caslon";
   font-weight: auto;
-  src: url(fonts/7092.ttf)
+  src: url(font/7092.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Swift";
   font-weight: auto;
-  src: url(fonts/Swift-Bold.ttf)
+  src: url(font/Swift-Bold.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "TrajanPro3-Regular";
   font-weight: auto;
-  src: url(fonts/TrajanPro3-Regular.otf)
+  src: url(font/TrajanPro3-Regular.otf)
   format('opentype');
 }
 @font-face {
   font-family: "Caslon";
   font-weight: auto;
-  src: url(fonts/7129.ttf)
+  src: url(font/7129.ttf)
   format('truetype');
 }
 @font-face {
   font-family: "Garamond";
   font-weight: auto;
-  src: url(fonts/GARA.TTF)
+  src: url(font/GARA.TTF)
   format('truetype');
 }
 @font-face{
   font-family: "Adobe Jenson";
   font-weight: auto;
-  src: url(fonts/Adobe-Jenson.ttf)
+  src: url(font/Adobe-Jenson.ttf)
   format('truetype');
 }
 @font-face{
   font-family: "Futura Regular";
   font-weight: auto;
-  src: url(fonts/FuturaBookC.ttf)
+  src: url(font/FuturaBookC.ttf)
   format('truetype');
 }
 @font-face{
   font-family: "Clarendon Regular";
   font-weight: auto;
-  src: url(fonts/Clarendon Regular.otf)
+  src: url(font/Clarendon Regular.otf)
   format('opentype');
 }
 body{
