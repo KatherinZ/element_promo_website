@@ -227,6 +227,8 @@ header .burger > img{
   position: absolute;
   margin-left: 5vw;
   margin-top: 4vw;
+  overflow: hidden;
+
 }
 .wrapper .ground{
   display: flex;
@@ -276,21 +278,23 @@ svg{
 
 footer{
   position: relative;
-  top: 5vw;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: #000;
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 105vw;
+  top: 14vw;
+  width: 93vw;
+  margin-bottom: 2vw;
 }
 footer p{
-  font-family: "Proxima Bold",helvetica, sans-serif;
+  font-family: "Proxima-Bold";
   font-size: 1.2vw;
-  color: #fff;
 }
 footer a img{
   max-height: 3vw;
+  margin-left: 0.6vw;
 }
 
 

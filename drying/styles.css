@@ -223,6 +223,13 @@ header .burger > img{
   padding-left: 5vw;
 }
 
+header .links img:hover, .burger > img:hover{
+  transition: 0.70s;
+  transform: rotate(360deg);
+  transform-origin: center;
+  cursor: pointer;
+}
+
 .wrapper{
 position: absolute;
 margin-top: 3vw;
