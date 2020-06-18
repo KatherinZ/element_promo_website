@@ -223,24 +223,24 @@ header .links img:hover, .burger > img:hover{
 }
 
  .names h3{
-  position: fixed;
+  position: absolute;
   font-size: 1vw;
   font-family: "Hagrid-Medium", helvetica, sans-serif;
   transform: rotate(90deg);
   transform-origin: center;
   color: #fff;
   left: 3vw;
-  top: 24vw;
+  top: 18vw;
 }
 .names h3:nth-of-type(2){
   position: absolute;
-  left: 0vw;
-  top: 98vw;
+  left: 1.5vw;
+  top: 99vw;
 }
 .names h3:last-child{
   position: absolute;
-  left: 2vw;
-  top: 233vw;
+  left: 3.3vw;
+  top: 235vw;
 }
 
 
