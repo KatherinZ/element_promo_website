@@ -2,14 +2,14 @@
 @font-face {
   font-family: "Hagrid-Bold";
   font-weight: auto;
-  src: url(../font/hagrid-bold.otf)
-  format('opentype');
+  src: url(../font/hagrid-bold.woff)
+  format('woff');
 }
 @font-face {
   font-family: "Hagrid-Medium";
   font-weight: auto;
-  src: url(../font/hagrid-medium.otf)
-  format('opentype');
+  src: url(../font/hagrid-medium.woff)
+  format('woff');
 }
 @font-face {
   font-family: "Proxima-Regular";
