@@ -88,13 +88,10 @@ header .burger{
   left: 0;
   width: 100vw;
   height: 100vw;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 header .menu img:hover{
   cursor: pointer;
-}
-header .burger{
-  position: absolute;
 }
 header .burger .zag {
   z-index: 10;
@@ -415,7 +412,9 @@ header .burger .zag a:nth-of-type(8) h2{
   margin-top: 79vw;
 }
 
-
+.wrapper{
+  overflow: hidden;
+}
 .wrapper .line{
   height: 23vw;
 }
@@ -520,7 +519,7 @@ header .burger .zag a:nth-of-type(8) h2{
 }
 
 footer{
-  margin-top: 121.5vw;
+  margin-top: 28vw;
 }
 footer p{
   font-size: 2vw;
