@@ -319,7 +319,7 @@ header .links img:hover, .burger > img:hover{
 h1{
   margin-top: 16vw;
   text-align: center;
-  font-family: "Hagrid-Bold", helvetica, sans-serif;
+font-family: "Hagrid-Medium",helvetica, sans-serif;
   font-size: 10vw;
   z-index: 10;
 }
